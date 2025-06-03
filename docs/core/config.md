@@ -1,4 +1,16 @@
-# ⚙️ Config Module
+### ⚙️ `docs/core/config.md` — Stub Content
+
+# ⚙️ Config – Bluewater Core Module
+
+📄 **File:** `docs/core/config.md`  
+📅 **Status:** Published  
+🏷️ **Tags:** core, config, env, psr-11  
+🔖 **Version:** 1.0  
+📦 **Scope:** 📦 Contributors – Configuration managers and extension developers  
+👨‍💻 **Author:** Bluewater Team
+
+---
+
 
 The Config module handles loading and merging **environment-based configuration** from `.env` files, client-specific config files, and framework defaults.
 
@@ -40,7 +52,7 @@ src/
 * Validate `.env` parsing edge cases
 * Test missing keys and fallback logic
 
-See [testing.md](../testing.md)
+See [testing.md](../testing/testing.md)
 
 ---
 
@@ -55,8 +67,8 @@ $config = Config::get('auth.jwt.secret');
 
 ## 🔗 Related
 
-* [Architecture Spec](../architecture.md)
-* [Deployment Guide](../deployment.md)
+* [Architecture Spec](../architecture/architecture.md)
+* [Deployment Guide](../deployment/deployment.md)
 * [Router](router.md)
 
 ---

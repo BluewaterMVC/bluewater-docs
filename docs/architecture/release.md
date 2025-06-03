@@ -1,12 +1,16 @@
 ### 📘 `docs/release.md` — Stub Content
 
-# 🚀 Release & Tagging Strategy – Bluewater Framework
+# 🚀 Release & Versioning – Bluewater Framework
 
-📁 File: `docs/release.md`  
-📅 Status: Planned  
-🧠 Author: Jake (AI Systems Architect)
+📄 **File:** `docs/architecture/release.md`  
+📅 **Status:** Stub  
+🏷️ **Tags:** release, lifecycle, tagging  
+🔖 **Version:** 1.0  
+📦 **Scope:** 📦 Contributors – Project maintainers and release engineers  
+👨‍💻 **Author:** Bluewater Team
 
 ---
+
 
 ## 📌 Purpose
 

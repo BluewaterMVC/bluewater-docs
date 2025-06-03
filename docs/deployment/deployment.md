@@ -1,4 +1,14 @@
-# 🚀 Deployment Guide – Bluewater Framework
+# 🚀 Deployment Overview – Bluewater Framework
+
+📄 **File:** `docs/deployment/deployment.md`  
+📅 **Status:** Published  
+🏷️ **Tags:** deployment, hosting, production, devops  
+🔖 **Version:** 1.0  
+📦 **Scope:** 🌐 Public – DevOps engineers, sysadmins, deployers  
+👨‍💻 **Author:** Bluewater Team
+
+---
+
 
 This document outlines the supported deployment environments, setup checklist, and best practices for hosting Bluewater in production and staging environments.
 
@@ -6,13 +16,13 @@ This document outlines the supported deployment environments, setup checklist, a
 
 ## 🧾 Requirements
 
-| Component           | Description                                  |
-|---------------------|----------------------------------------------|
-| PHP Runtime         | PHP 8.2+ with FPM                            |
-| Web Server          | NGINX (preferred) or Apache w/ mod_rewrite  |
-| Composer            | Required for initial install + autoloading  |
-| Writable Directories| `/cache/`, `/logs/`, and `/storage/`        |
-| Environment Config  | `.env` file at project root                  |
+| Component            | Description                                |
+|----------------------|--------------------------------------------|
+| PHP Runtime          | PHP 8.2+ with FPM                          |
+| Web Server           | NGINX (preferred) or Apache w/ mod_rewrite |
+| Composer             | Required for initial install + autoloading |
+| Writable Directories | `/cache/`, `/logs/`, and `/storage/`       |
+| Environment Config   | `.env` file at project root                |
 
 ---
 
@@ -109,6 +119,6 @@ Use Bluewater’s **stateless** structure for easy containerization and horizont
 
 ---
 
-## ⏩ Next: See [`docs/release.md`](release.md) for tagging and version packaging
+## ⏩ Next: See [`release.md`](../architecture/release.md) for tagging and version packaging
 
 ```

@@ -1,6 +1,13 @@
-# 🚦 Rate Limiting Integration
+# 🚦 Rate Limiting – Bluewater
 
-> Tags: `#integrations` `#rate-limiting` `#security` `#middleware`
+📄 **File:** `docs/integrations/rate-limit.md`  
+📅 **Status:** Stub  
+🏷️ **Tags:** integrations, rate-limiting, security  
+🔖 **Version:** 1.0  
+📦 **Scope:** 🌐 Public – Security & API Gateways  
+👨‍💻 **Author:** Bluewater Team
+
+---
 
 ## Overview
 
@@ -10,22 +17,22 @@ Rate limiting protects your API from abuse and ensures fair usage across clients
 
 ## 📦 Common Strategies
 
-| Method        | Description                                     |
-|---------------|-------------------------------------------------|
-| Fixed Window  | Allow N requests per fixed time period (e.g., 60s) |
-| Sliding Window | Tracks request timestamps for rolling intervals |
-| Token Bucket  | Allows bursts followed by recovery over time     |
-| Leaky Bucket  | Smooth request flow via gradual token drain      |
+| Method         | Description                                        |
+|----------------|----------------------------------------------------|
+| Fixed Window   | Allow N requests per fixed time period (e.g., 60s) |
+| Sliding Window | Tracks request timestamps for rolling intervals    |
+| Token Bucket   | Allows bursts followed by recovery over time       |
+| Leaky Bucket   | Smooth request flow via gradual token drain        |
 
 ---
 
 ## 🧰 Recommended Libraries
 
-| Tool | Install | Notes |
-|------|---------|-------|
-| [malkusch/lock](https://github.com/malkusch/lock) | `composer require malkusch/lock` | Locking + rate logic |
-| [Symfony RateLimiter](https://symfony.com/doc/current/rate_limiter.html) | `composer require symfony/rate-limiter` | PSR-compatible |
-| Redis (native) | — | Fast and distributed |
+| Tool                                                                     | Install                                 | Notes                |
+|--------------------------------------------------------------------------|-----------------------------------------|----------------------|
+| [malkusch/lock](https://github.com/malkusch/lock)                        | `composer require malkusch/lock`        | Locking + rate logic |
+| [Symfony RateLimiter](https://symfony.com/doc/current/rate_limiter.html) | `composer require symfony/rate-limiter` | PSR-compatible       |
+| Redis (native)                                                           | —                                       | Fast and distributed |
 
 ---
 
@@ -82,5 +89,3 @@ X-RateLimit-Reset: 1685572132
 * [Symfony RateLimiter Docs](https://symfony.com/doc/current/rate_limiter.html)
 
 ---
-
-```

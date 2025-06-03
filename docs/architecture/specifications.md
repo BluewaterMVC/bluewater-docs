@@ -1,13 +1,14 @@
-```markdown
-### 📘 `docs/specifications.md` — Stub Content
-
 # 📐 Technical Specifications – Bluewater Framework
 
-📁 File: `docs/specifications.md`  
-📅 Status: Draft  
-🧠 Author: Jake (AI Systems Architect)
+📄 **File:** `docs/architecture/specifications.md`  
+📅 **Status:** Stub  
+🏷️ **Tags:** specs, requirements, constraints  
+🔖 **Version:** 1.0  
+📦 **Scope:** 📦 Contributors – Maintainers, architects, implementers  
+👨‍💻 **Author:** Bluewater Team
 
 ---
+
 
 ## 📌 Purpose
 
@@ -24,13 +25,13 @@ It ensures that all contributors and consumers share a consistent understanding 
 
 ## ⚙️ Environment Requirements
 
-| Requirement     | Version / Constraint     |
-|------------------|--------------------------|
-| PHP              | 8.2+                     |
-| Web Server       | NGINX or Apache          |
-| Composer         | v2+                      |
-| File Permissions | Writable `cache/`        |
-| Runtime          | PHP-FPM (recommended)    |
+| Requirement      | Version / Constraint  |
+|------------------|-----------------------|
+| PHP              | 8.2+                  |
+| Web Server       | NGINX or Apache       |
+| Composer         | v2+                   |
+| File Permissions | Writable `cache/`     |
+| Runtime          | PHP-FPM (recommended) |
 
 ---
 
@@ -46,27 +47,27 @@ It ensures that all contributors and consumers share a consistent understanding 
 
 ## 📄 PSR Compliance
 
-| PSR Standard     | Used In Module(s)                      |
-|------------------|-----------------------------------------|
-| PSR-1 / PSR-12    | Coding style + structure               |
-| PSR-4            | Autoloading                             |
-| PSR-3            | Logging                                 |
-| PSR-7            | HTTP messages (request/response)        |
-| PSR-11           | (future) Service container (optional)   |
-| PSR-15           | Middleware interfaces                   |
-| PSR-17           | HTTP factories                          |
+| PSR Standard   | Used In Module(s)                     |
+|----------------|---------------------------------------|
+| PSR-1 / PSR-12 | Coding style + structure              |
+| PSR-4          | Autoloading                           |
+| PSR-3          | Logging                               |
+| PSR-7          | HTTP messages (request/response)      |
+| PSR-11         | (future) Service container (optional) |
+| PSR-15         | Middleware interfaces                 |
+| PSR-17         | HTTP factories                        |
 
 ---
 
 ## 🧪 Behavioral Contracts
 
-| Area          | Specification                                |
-|---------------|-----------------------------------------------|
-| Router        | Routes are matched using a precompiled map    |
-| Middleware    | Must implement PSR-15 `MiddlewareInterface`   |
+| Area          | Specification                                       |
+|---------------|-----------------------------------------------------|
+| Router        | Routes are matched using a precompiled map          |
+| Middleware    | Must implement PSR-15 `MiddlewareInterface`         |
 | Controllers   | Return `ResponseInterface` or throw `HttpException` |
-| Auth Drivers  | Must implement `AuthDriverInterface`          |
-| Config Loader | Merges in order: `.env` → common → client     |
+| Auth Drivers  | Must implement `AuthDriverInterface`                |
+| Config Loader | Merges in order: `.env` → common → client           |
 
 ---
 
@@ -81,12 +82,12 @@ It ensures that all contributors and consumers share a consistent understanding 
 
 ## ⚡ Performance Expectations
 
-| Metric            | Target Value             |
-|-------------------|---------------------------|
-| Framework boot    | < 50ms (with opcache)    |
-| Route response    | < 10ms (with cache)      |
-| CLI command exec  | < 500ms average          |
-| Route lookup      | Constant-time (hash map) |
+| Metric           | Target Value             |
+|------------------|--------------------------|
+| Framework boot   | < 50ms (with opcache)    |
+| Route response   | < 10ms (with cache)      |
+| CLI command exec | < 500ms average          |
+| Route lookup     | Constant-time (hash map) |
 
 ---
 
@@ -111,4 +112,3 @@ It ensures that all contributors and consumers share a consistent understanding 
 ---
 
 🧠 *Specifications aren’t suggestions — they’re what makes the framework reliable.*
-```

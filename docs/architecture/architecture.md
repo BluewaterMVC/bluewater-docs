@@ -1,10 +1,13 @@
 ### 📘 `docs/architecture/Architecture.md` — Stub Content
 
-# 🧱 Bluewater Framework – Architecture Specification
+# 🏗️ Architecture Overview – Bluewater Framework
 
-📄 Version: 1.0  
-🧠 Maintained by: Core Team / Walter Torres 🥷  
-📦 Scope: Internal architecture reference for contributors, integrators, and framework maintainers.
+📄 **File:** `docs/architecture/architecture.md`  
+📅 **Status:** Published  
+🏷️ **Tags:** architecture, design, overview  
+🔖 **Version:** 1.0  
+📦 **Scope:** 🔒 Internal – Core developers and system architects  
+👨‍💻 **Author:** Bluewater Team
 
 ---
 
@@ -121,7 +124,7 @@ bluewater-project/
 ## 🚀 Performance Targets
 
 | Metric            | Target                         |
-| ----------------- | ------------------------------ |
+|-------------------|--------------------------------|
 | Boot Time         | < 50ms with opcache            |
 | Avg Response Time | < 10ms for cacheable endpoints |
 | Route Lookup      | Constant-time via compiled map |
@@ -134,7 +137,7 @@ bluewater-project/
 You bring the stack:
 
 | Type    | Examples / Notes                 |
-| ------- | -------------------------------- |
+|---------|----------------------------------|
 | ORM     | Eloquent, Doctrine, PDO          |
 | Caching | Redis, Memcached, PSR-6/16       |
 | Queues  | Redis, Beanstalkd, RabbitMQ      |

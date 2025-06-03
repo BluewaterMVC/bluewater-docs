@@ -1,6 +1,13 @@
-# 📧 Email Integration
+# 📧 Email Integration – Bluewater
 
-> Tags: `#integrations` `#email` `#smtp` `#notifications`
+📄 **File:** `docs/integrations/emails.md`  
+📅 **Status:** Stub  
+🏷️ **Tags:** integrations, email, smtp, transactional  
+🔖 **Version:** 1.0  
+📦 **Scope:** 🌐 Public – Backend Developers  
+👨‍💻 **Author:** Bluewater Team
+
+---
 
 ## Overview
 
@@ -10,13 +17,13 @@ Bluewater does not include native mailing capabilities, but supports integration
 
 ## ✉️ Common Providers
 
-| Tool           | Type           | Features                                  |
-|----------------|----------------|-------------------------------------------|
-| [PHPMailer](https://github.com/PHPMailer/PHPMailer)     | SMTP/Transport | Low-level, self-managed                   |
-| [Symfony Mailer](https://symfony.com/doc/current/mailer.html) | Framework Mailer | PSR-compliant, mail transports            |
-| [Mailgun](https://www.mailgun.com/)       | API          | Transactional API, stats, logs            |
-| [Postmark](https://postmarkapp.com/)      | API          | Deliverability-focused email API          |
-| [SendGrid](https://sendgrid.com/)         | API/SMTP     | High-volume provider with templates       |
+| Tool                                                          | Type             | Features                            |
+|---------------------------------------------------------------|------------------|-------------------------------------|
+| [PHPMailer](https://github.com/PHPMailer/PHPMailer)           | SMTP/Transport   | Low-level, self-managed             |
+| [Symfony Mailer](https://symfony.com/doc/current/mailer.html) | Framework Mailer | PSR-compliant, mail transports      |
+| [Mailgun](https://www.mailgun.com/)                           | API              | Transactional API, stats, logs      |
+| [Postmark](https://postmarkapp.com/)                          | API              | Deliverability-focused email API    |
+| [SendGrid](https://sendgrid.com/)                             | API/SMTP         | High-volume provider with templates |
 
 ---
 
@@ -64,5 +71,3 @@ $mail->send();
 * [Symfony Mailer Docs](https://symfony.com/doc/current/mailer.html)
 
 ---
-
-```

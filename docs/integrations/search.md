@@ -1,6 +1,13 @@
-# 🔍 Search Integration
+# 🔍 Search Integration – Bluewater
 
-> Tags: `#integrations` `#search` `#elasticsearch` `#meilisearch` `#fulltext`
+📄 **File:** `docs/integrations/search.md`  
+📅 **Status:** Stub  
+🏷️ **Tags:** integrations, search, elasticsearch, fulltext  
+🔖 **Version:** 1.0  
+📦 **Scope:** 🌐 Public – Backend Developers  
+👨‍💻 **Author:** Bluewater Team
+
+---
 
 ## Overview
 
@@ -10,22 +17,22 @@ Bluewater does not include built-in search services, but integrates easily with 
 
 ## 🧠 When to Use Search
 
-| Use Case                         | Solution             |
-|----------------------------------|-----------------------|
-| Full-text search over content    | Meilisearch, Elastic  |
-| Fuzzy search/autocomplete        | Algolia, Meilisearch  |
-| Filtering & aggregation          | ElasticSearch         |
-| Instant results + typo handling | Algolia               |
+| Use Case                        | Solution             |
+|---------------------------------|----------------------|
+| Full-text search over content   | Meilisearch, Elastic |
+| Fuzzy search/autocomplete       | Algolia, Meilisearch |
+| Filtering & aggregation         | ElasticSearch        |
+| Instant results + typo handling | Algolia              |
 
 ---
 
 ## 🔧 Recommended Tools
 
-| Tool              | Type      | Highlights                                |
-|-------------------|-----------|--------------------------------------------|
-| [Meilisearch](https://www.meilisearch.com/) | Self-hosted | Fast, typo-tolerant, dev-friendly           |
-| [ElasticSearch](https://www.elastic.co/elasticsearch/) | Self-hosted | Enterprise search, scaling, DSL query       |
-| [Algolia](https://www.algolia.com/) | SaaS       | Fastest hosted search, generous free tier   |
+| Tool                                                   | Type        | Highlights                                |
+|--------------------------------------------------------|-------------|-------------------------------------------|
+| [Meilisearch](https://www.meilisearch.com/)            | Self-hosted | Fast, typo-tolerant, dev-friendly         |
+| [ElasticSearch](https://www.elastic.co/elasticsearch/) | Self-hosted | Enterprise search, scaling, DSL query     |
+| [Algolia](https://www.algolia.com/)                    | SaaS        | Fastest hosted search, generous free tier |
 
 ---
 

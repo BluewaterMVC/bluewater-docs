@@ -1,5 +1,13 @@
-🧠 *Generating Module 5 of 6: Logger*
-**Jake** 🥷 delivering the full stub for the **Logger Module**, which plugs into any PSR-3-compliant logging system like Monolog, stderr, or cloud exporters.
+### 📚 `docs/core/logger.md` — Stub Content
+
+# 📚 Logger – Bluewater Core Module
+
+📄 **File:** `docs/core/logger.md`  
+📅 **Status:** Published  
+🏷️ **Tags:** core, logging, psr-3  
+🔖 **Version:** 1.0  
+📦 **Scope:** 📦 Contributors – Logger implementers and maintainers  
+👨‍💻 **Author:** Bluewater Team
 
 ---
 
@@ -80,14 +88,14 @@ Each client can override these in their `config/log.php`.
 * Mock logger to capture output
 * Ensure PSR-3 compliance
 
-See [testing.md](../testing.md)
+See [testing.md](../testing/testing.md)
 
 ---
 
 ## 🔗 Related
 
 * [Responder](responder.md)
-* [Architecture Spec](../architecture.md)
+* [Architecture Spec](../architecture/architecture.md)
 * [Config](config.md)
 
 ---

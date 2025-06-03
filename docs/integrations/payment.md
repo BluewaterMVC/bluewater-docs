@@ -1,6 +1,13 @@
-# 💳 Payment Integration
+# 💳 Payment Integration – Bluewater
 
-> Tags: `#integrations` `#payments` `#webhooks` `#stripe` `#braintree`
+📄 **File:** `docs/integrations/payment.md`  
+📅 **Status:** Stub  
+🏷️ **Tags:** integrations, payments, stripe, billing  
+🔖 **Version:** 1.0  
+📦 **Scope:** 🌐 Public – Financial & E-Commerce APIs  
+👨‍💻 **Author:** Bluewater Team
+
+---
 
 ## Overview
 
@@ -10,12 +17,12 @@ Bluewater doesn’t include built-in payment logic, but supports payment process
 
 ## 💰 Common Payment Providers
 
-| Provider       | Mode         | Highlights                               |
-|----------------|--------------|------------------------------------------|
-| [Stripe](https://stripe.com/docs)       | API + Webhooks | Modern, dev-friendly, popular in SaaS     |
-| [Braintree](https://developer.paypal.com/braintree/docs/)   | SDK + Vault | PayPal-backed, tokenized cards            |
-| [Square](https://developer.squareup.com/docs)        | SDK + API    | In-store + online, small biz friendly     |
-| [Mollie](https://docs.mollie.com/)       | API           | Strong EU support, banking systems        |
+| Provider                                                  | Mode           | Highlights                            |
+|-----------------------------------------------------------|----------------|---------------------------------------|
+| [Stripe](https://stripe.com/docs)                         | API + Webhooks | Modern, dev-friendly, popular in SaaS |
+| [Braintree](https://developer.paypal.com/braintree/docs/) | SDK + Vault    | PayPal-backed, tokenized cards        |
+| [Square](https://developer.squareup.com/docs)             | SDK + API      | In-store + online, small biz friendly |
+| [Mollie](https://docs.mollie.com/)                        | API            | Strong EU support, banking systems    |
 
 ---
 
@@ -77,5 +84,3 @@ app/
 * [Secure Webhooks](https://stripe.com/docs/webhooks)
 
 ---
-
-```

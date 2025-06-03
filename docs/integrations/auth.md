@@ -1,6 +1,13 @@
-# 🔐 Auth Integration
+# 🔐 Authentication Integration – Bluewater
 
-> Tags: `#integrations` `#authentication` `#security` `#jwt` `#oauth2`
+📄 **File:** `docs/integrations/auth.md`  
+📅 **Status:** Stub  
+🏷️ **Tags:** integrations, auth, jwt, oauth  
+🔖 **Version:** 1.0  
+📦 **Scope:** 🌐 Public – Developers & API Consumers  
+👨‍💻 **Author:** Bluewater Team
+
+---
 
 ## Overview
 
@@ -10,12 +17,12 @@ Bluewater provides no built-in authentication logic but supports integration wit
 
 ## 🔓 Supported Auth Mechanisms
 
-| Type        | Use Case                                | Tool Examples                                |
-|-------------|------------------------------------------|----------------------------------------------|
-| JWT         | Stateless API access                     | `lcobucci/jwt`, `firebase/php-jwt`           |
-| OAuth2      | External identity brokers, SSO           | `league/oauth2-server`, `oauth2-client`      |
-| HMAC        | Internal token signatures for APIs       | Manual signature validation                  |
-| API Key     | Basic static token with header check     | Custom middleware                            |
+| Type    | Use Case                             | Tool Examples                           |
+|---------|--------------------------------------|-----------------------------------------|
+| JWT     | Stateless API access                 | `lcobucci/jwt`, `firebase/php-jwt`      |
+| OAuth2  | External identity brokers, SSO       | `league/oauth2-server`, `oauth2-client` |
+| HMAC    | Internal token signatures for APIs   | Manual signature validation             |
+| API Key | Basic static token with header check | Custom middleware                       |
 
 ---
 

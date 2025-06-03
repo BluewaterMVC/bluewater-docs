@@ -1,8 +1,13 @@
+### 🧰 `docs/core/middleware.md` — Stub Content
 
-# 🔁 Middleware
+# 🧰 Middleware – Bluewater Core Module
 
-**Category:** Core Module  
-**Tags:** `psr-15`, `http`, `core`, `security`, `routing`
+📄 **File:** `docs/core/middleware.md`  
+📅 **Status:** Published  
+🏷️ **Tags:** `core`, `middleware`, `psr-15`, `lifecycle` , `security`, `routing` 
+🔖 **Version:** 1.0  
+📦 **Scope:** 📦 Contributors – Middleware developers and backend integrators  
+👨‍💻 **Author:** Bluewater Team
 
 ---
 
@@ -74,10 +79,10 @@ Middleware can be tested in isolation using mocks for `ServerRequestInterface` a
 
 ## 📦 PSR Compatibility
 
-| PSR    | Description                     |
-| ------ | ------------------------------- |
-| PSR-7  | HTTP Message Interfaces         |
-| PSR-15 | HTTP Server Middleware Standard |
+| PSR                                           | Description                     |
+|-----------------------------------------------|---------------------------------|
+| [PSR-7](https://www.php-fig.org/psr/psr-7/)   | HTTP Message Interfaces         |
+| [PSR-15](https://www.php-fig.org/psr/psr-15/) | HTTP Server Middleware Standard |
 
 ---
 
@@ -92,5 +97,3 @@ Bluewater middleware empowers precise control over request handling with minimal
 * [Dispatcher](./dispatcher.md)
 * [Auth Modules](../security/auth-modules.md)
 * [Testing Middleware](../testing/testing.md)
-
-````

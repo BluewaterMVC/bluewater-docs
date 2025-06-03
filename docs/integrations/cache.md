@@ -1,6 +1,13 @@
-# 🧊 Cache Integration
+# 🗃️ Caching Integration – Bluewater
 
-> Tags: `#integrations` `#cache` `#performance` `#psr-6` `#psr-16`
+📄 **File:** `docs/integrations/cache.md`  
+📅 **Status:** Stub  
+🏷️ **Tags:** integrations, cache, psr-6, psr-16  
+🔖 **Version:** 1.0  
+📦 **Scope:** 🌐 Public – Performance & Deployment Teams  
+👨‍💻 **Author:** Bluewater Team
+
+---
 
 ## Overview
 
@@ -10,13 +17,13 @@ Bluewater does not include internal caching logic, but it is fully compatible wi
 
 ## 📦 Supported Backends
 
-| Tool                 | PSR Support | Use Case                        |
-|----------------------|-------------|----------------------------------|
-| [Redis](https://redis.io/)            | ✅ PSR-16    | High-speed memory caching        |
-| [Memcached](https://www.memcached.org/) | ✅ PSR-16    | Lightweight distributed cache    |
-| [Symfony Cache](https://symfony.com/doc/current/components/cache.html) | ✅ PSR-6/16 | Versatile and filesystem-friendly |
-| [Doctrine Cache](https://www.doctrine-project.org/projects/cache.html) | ✅ PSR-6    | Legacy support                    |
-| [Laravel Cache](https://laravel.com/docs/cache) | 🚫 Adapter required | Wrapper around Redis, Memcached   |
+| Tool                                                                   | PSR Support                                                                                       | Use Case                          |
+|------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|-----------------------------------|
+| [Redis](https://redis.io/)                                             | ✅ [PSR-16](https://www.php-fig.org/psr/psr-16/)                                                   | High-speed memory caching         |
+| [Memcached](https://www.memcached.org/)                                | ✅ [PSR-16](https://www.php-fig.org/psr/psr-16/)                                                   | Lightweight distributed cache     |
+| [Symfony Cache](https://symfony.com/doc/current/components/cache.html) | ✅ [PSR-16](https://www.php-fig.org/psr/psr-16/)<br/>✅ [PSR-6](https://www.php-fig.org/psr/psr-6/) | Versatile and filesystem-friendly |
+| [Doctrine Cache](https://www.doctrine-project.org/projects/cache.html) | ✅ [PSR-16](https://www.php-fig.org/psr/psr-6/)                                                    | Legacy support                    |
+| [Laravel Cache](https://laravel.com/docs/cache)                        | 🚫 Adapter required                                                                               | Wrapper around Redis, Memcached   |
 
 ---
 
@@ -81,10 +88,8 @@ class DummyCache implements Psr\SimpleCache\CacheInterface {
 
 ## 🔗 Related
 
-* [`docs/performance.md`](../performance.md)
+* [`docs/performance.md`](../deployment/performance.md)
 * [PSR-6 Spec](https://www.php-fig.org/psr/psr-6/)
 * [PSR-16 Spec](https://www.php-fig.org/psr/psr-16/)
 
 ---
-
-```

@@ -1,3 +1,16 @@
+### 🧭 `docs/core/router.md` — Stub Content
+
+# 🧭 Router – Bluewater Core Module
+
+📄 **File:** `docs/core/router.md`  
+📅 **Status:** Published  
+🏷️ **Tags:** core, routing, http, psr-7  
+🔖 **Version:** 1.0  
+📦 **Scope:** 📦 Contributors – Core and backend developers  
+👨‍💻 **Author:** Bluewater Team
+
+---
+
 # 🚦 Module 1: Router Module
 
 The Router module is responsible for matching incoming HTTP requests to registered application routes. It supports versioned endpoints and constant-time resolution through precompiled route maps.
@@ -61,7 +74,7 @@ Use PHPUnit to:
 * Confirm version filtering
 * Assert parameter extraction (e.g. `:id`)
 
-See [testing.md](../testing.md)
+See [testing.md](../testing/testing.md)
 
 ---
 
@@ -69,7 +82,7 @@ See [testing.md](../testing.md)
 
 * [Dispatcher](dispatcher.md)
 * [Responder](responder.md)
-* [Architecture Spec](../architecture.md)
+* [Architecture Spec](../architecture/architecture.md)
 
 ---
 

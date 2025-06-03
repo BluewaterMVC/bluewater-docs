@@ -1,6 +1,15 @@
 ### 📘 `docs/api/openapi-spec.md` — Stub Content
 
-# 📑 API Specification – OpenAPI v3
+# 📄 OpenAPI Specification – Bluewater Framework
+
+📄 **File:** `docs/api/openapi-spec.md`  
+📅 **Status:** Stub  
+🏷️ **Tags:** api, specification, openapi  
+🔖 **Version:** 1.0  
+📦 **Scope:** 📦 Contributors – API maintainers and technical writers  
+👨‍💻 **Author:** Bluewater Team
+
+---
 
 This document explains how Bluewater defines, generates, and uses OpenAPI specs for tenant APIs.
 

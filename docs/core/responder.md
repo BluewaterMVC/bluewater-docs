@@ -1,4 +1,17 @@
-# 📤 Module : Responder Module
+### 📤 `docs/core/responder.md` — Stub Content
+
+# 📤 Responder – Bluewater Core Module
+
+📄 **File:** `docs/core/responder.md`  
+📅 **Status:** Published  
+🏷️ **Tags:** core, response, json, psr-7  
+🔖 **Version:** 1.0  
+📦 **Scope:** 📦 Contributors – Output handlers and format maintainers  
+👨‍💻 **Author:** Bluewater Team
+
+---
+
+
 
 The Responder module is responsible for generating **consistent HTTP responses**, including status codes, headers, and body formatting. It serves as the final output layer in the request lifecycle.
 
@@ -20,7 +33,7 @@ Every response returned from an endpoint should adhere to the following structur
 ```json
 {
   "status": "success",
-  "data": { ... },
+  "data": { "..." },
   "meta": {
     "timestamp": "2025-06-02T14:32:00Z"
   }
@@ -59,7 +72,7 @@ src/
 * Mock internal exceptions for error wrapping
 * PSR-7 compliance with `ResponseInterface`
 
-See [testing.md](../testing.md)
+See [testing.md](../testing/testing.md)
 
 ---
 
@@ -67,7 +80,7 @@ See [testing.md](../testing.md)
 
 * [Dispatcher](dispatcher.md)
 * [Logger](logger.md)
-* [Architecture Spec](../architecture.md)
+* [Architecture Spec](../architecture/architecture.md)
 
 ---
 

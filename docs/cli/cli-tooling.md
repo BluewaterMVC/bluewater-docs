@@ -1,7 +1,15 @@
-# 🧰 Bluewater CLI Tooling – Developer Notes
+### 🛠️ `docs/cli/cli-tooling.md` — Stub Content
 
-> 📁 Location: `docs/cli-tooling.md`  
-> 🔍 Purpose: Document the design, extension, and roadmap of Bluewater's CLI tooling system
+# 🛠️ Bluewater CLI Tooling – Developer Notes
+
+# 🛠️ CLI Tooling – Bluewater Framework
+
+📄 **File:** `docs/cli/cli-tooling.md`  
+📅 **Status:** Published  
+🏷️ **Tags:** cli, commands, tools, dev  
+🔖 **Version:** 1.0  
+📦 **Scope:** 📦 Contributors – Developers and maintainers using CLI tools  
+👨‍💻 **Author:** Bluewater Team
 
 ---
 
@@ -34,7 +42,7 @@ This command points to the script shipped in the framework package:
 ## 📜 Core Commands (v1.0)
 
 | Command       | Purpose                                    |
-| ------------- | ------------------------------------------ |
+|---------------|--------------------------------------------|
 | `route:list`  | List registered routes                     |
 | `cache:clear` | Delete runtime route/config cache          |
 | `config:dump` | Output merged configuration for inspection |
@@ -55,7 +63,7 @@ This command points to the script shipped in the framework package:
 ## 🧭 Roadmap
 
 | Phase                             | Status        |
-| --------------------------------- | ------------- |
+|-----------------------------------|---------------|
 | Manual flag parsing               | ✅ Implemented |
 | Command registration system       | 🕐 TBD        |
 | Command auto-discovery            | 🕐 TBD        |

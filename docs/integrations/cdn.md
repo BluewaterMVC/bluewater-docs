@@ -1,6 +1,13 @@
-# ☁️ CDN (Content Delivery Network) Integration
+# 🌐 CDN Integration – Bluewater
 
-> Tags: `#integrations` `#cdn` `#performance` `#cache` `#assets`
+📄 **File:** `docs/integrations/cdn.md`  
+📅 **Status:** Stub  
+🏷️ **Tags:** integrations, cdn, static, delivery, assets  
+🔖 **Version:** 1.0  
+📦 **Scope:** 🌐 Public – DevOps & Frontend Infrastructure  
+👨‍💻 **Author:** Bluewater Team
+
+---
 
 ## Overview
 
@@ -10,12 +17,12 @@ A CDN (Content Delivery Network) improves the performance, scalability, and reli
 
 ## 🌍 Popular CDN Providers
 
-| Provider         | Notes                                      |
-|------------------|---------------------------------------------|
-| [Cloudflare](https://www.cloudflare.com/)      | Global edge cache, DNS, firewall            |
-| [Fastly](https://www.fastly.com/)             | Real-time purging, dynamic origin rules     |
-| [Amazon CloudFront](https://aws.amazon.com/cloudfront/) | Integrated with S3, scalable               |
-| [BunnyCDN](https://bunny.net/)                | Cost-effective, image optimization          |
+| Provider                                                | Notes                                   |
+|---------------------------------------------------------|-----------------------------------------|
+| [Cloudflare](https://www.cloudflare.com/)               | Global edge cache, DNS, firewall        |
+| [Fastly](https://www.fastly.com/)                       | Real-time purging, dynamic origin rules |
+| [Amazon CloudFront](https://aws.amazon.com/cloudfront/) | Integrated with S3, scalable            |
+| [BunnyCDN](https://bunny.net/)                          | Cost-effective, image optimization      |
 
 ---
 
@@ -69,7 +76,7 @@ public/
 
 ## 🔗 Related
 
-* [`docs/performance.md`](../performance.md)
+* [`docs/performance.md`](../deployment/performance.md)
 * [`docs/integrations/file-storage.md`](file-storage.md)
 * [Cloudflare CDN Docs](https://developers.cloudflare.com/cache/about/)
 

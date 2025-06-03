@@ -1,6 +1,13 @@
-# 📝 Logging Integration
+# 📝 Logging Integration – Bluewater
 
-> Tags: `#integrations` `#logging` `#psr-3` `#monitoring`
+📄 **File:** `docs/integrations/logging.md`  
+📅 **Status:** Stub  
+🏷️ **Tags:** integrations, logging, psr-3, monitoring  
+🔖 **Version:** 1.0  
+📦 **Scope:** 🌐 Public – DevOps & QA Teams  
+👨‍💻 **Author:** Bluewater Team
+
+---
 
 ## Overview
 
@@ -19,14 +26,14 @@ By default, Bluewater uses a null logger unless configured otherwise.
 
 ## 🔌 External Loggers
 
-| Tool         | Description                                               |
-|--------------|-----------------------------------------------------------|
-| [Monolog](https://seldaek.github.io/monolog/) | Industry-standard PHP logging library (PSR-3) |
-| [stderr](https://www.php.net/manual/en/function.fwrite.php) | Logs to standard error (e.g. Docker, FPM)        |
-| [Syslog](https://www.php.net/manual/en/function.syslog.php) | Sends logs to OS-level system logs             |
-| [Sentry](https://sentry.io/welcome/) | Full-stack cloud error and exception tracking     |
-| [Loggly](https://www.loggly.com/) | Cloud-based log aggregation and analysis         |
-| [AWS CloudWatch](https://docs.aws.amazon.com/cloudwatch/) | Centralized logs and metrics on AWS              |
+| Tool                                                        | Description                                   |
+|-------------------------------------------------------------|-----------------------------------------------|
+| [Monolog](https://seldaek.github.io/monolog/)               | Industry-standard PHP logging library (PSR-3) |
+| [stderr](https://www.php.net/manual/en/function.fwrite.php) | Logs to standard error (e.g. Docker, FPM)     |
+| [Syslog](https://www.php.net/manual/en/function.syslog.php) | Sends logs to OS-level system logs            |
+| [Sentry](https://sentry.io/welcome/)                        | Full-stack cloud error and exception tracking |
+| [Loggly](https://www.loggly.com/)                           | Cloud-based log aggregation and analysis      |
+| [AWS CloudWatch](https://docs.aws.amazon.com/cloudwatch/)   | Centralized logs and metrics on AWS           |
 
 
 ---

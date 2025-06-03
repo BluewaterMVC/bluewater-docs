@@ -1,12 +1,16 @@
 ### 📘 `docs/api/openapi.md` — Stub Content
 
-# 📑 OpenAPI Integration – Bluewater Framework
+# 📡 OpenAPI Support – Bluewater Framework
 
-📁 File: `docs/openapi.md`  
-📅 Status: Planned  
-🧠 Author: Jake (AI Systems Architect)
+📄 **File:** `docs/api/openapi.md`  
+📅 **Status:** Published  
+🏷️ **Tags:** api, openapi, specification  
+🔖 **Version:** 1.0  
+📦 **Scope:** 🌐 Public – API consumers, integrators  
+👨‍💻 **Author:** Bluewater Team
 
 ---
+
 
 ## 📌 Purpose
 

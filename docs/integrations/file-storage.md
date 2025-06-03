@@ -1,6 +1,13 @@
-# 📁 File Storage Integration
+# 📂 File Storage Integration – Bluewater
 
-> Tags: `#integrations` `#storage` `#uploads` `#s3` `#filesystem`
+📄 **File:** `docs/integrations/file-storage.md`  
+📅 **Status:** Stub  
+🏷️ **Tags:** integrations, storage, s3, files, upload  
+🔖 **Version:** 1.0  
+📦 **Scope:** 🌐 Public – Developers & API Consumers  
+👨‍💻 **Author:** Bluewater Team
+
+---
 
 ## Overview
 
@@ -12,12 +19,12 @@ Use cases include: file uploads, avatar storage, logs, asset exports, and extern
 
 ## ☁️ Supported Backends
 
-| Tool           | Type        | Notes                              |
-|----------------|-------------|------------------------------------|
-| [Flysystem](https://flysystem.thephpleague.com/) | Filesystem abstraction | Unified access to local, S3, FTP, etc. |
-| [AWS S3 SDK](https://docs.aws.amazon.com/sdk-for-php/) | Cloud storage | Use for direct S3 integration          |
-| [MinIO](https://min.io/)     | Self-hosted S3 | Compatible with AWS SDK                |
-| Local Filesystem | Native PHP | Fastest for internal/dev use       |
+| Tool                                                   | Type                   | Notes                                  |
+|--------------------------------------------------------|------------------------|----------------------------------------|
+| [Flysystem](https://flysystem.thephpleague.com/)       | Filesystem abstraction | Unified access to local, S3, FTP, etc. |
+| [AWS S3 SDK](https://docs.aws.amazon.com/sdk-for-php/) | Cloud storage          | Use for direct S3 integration          |
+| [MinIO](https://min.io/)                               | Self-hosted S3         | Compatible with AWS SDK                |
+| Local Filesystem                                       | Native PHP             | Fastest for internal/dev use           |
 
 ---
 
@@ -72,7 +79,7 @@ cache/
 
 * [Flysystem Docs](https://flysystem.thephpleague.com/)
 * [S3 SDK Docs](https://docs.aws.amazon.com/sdk-for-php/)
-* [`docs/deployment.md`](../deployment.md)
+* [`docs/deployment.md`](../deployment/deployment.md)
 
 ---
 

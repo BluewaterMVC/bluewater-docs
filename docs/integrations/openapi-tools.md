@@ -1,6 +1,13 @@
-# 📄 OpenAPI Tooling
+# 🧰 OpenAPI Tooling – Bluewater
 
-> Tags: `#integrations` `#openapi` `#docs` `#spec` `#generator`
+📄 **File:** `docs/integrations/openapi-tools.md`  
+📅 **Status:** Stub  
+🏷️ **Tags:** integrations, openapi, docs, generators  
+🔖 **Version:** 1.0  
+📦 **Scope:** 🌐 Public – Documentation & Dev Tooling  
+👨‍💻 **Author:** Bluewater Team
+
+---
 
 ## Overview
 
@@ -18,13 +25,13 @@ Bluewater supports OpenAPI v3 specification output for your REST APIs. This doc 
 
 ## 🧰 Recommended Tools
 
-| Tool                        | Description                                 |
-|-----------------------------|---------------------------------------------|
+| Tool                                                  | Description                                     |
+|-------------------------------------------------------|-------------------------------------------------|
 | [swagger-php](https://github.com/zircote/swagger-php) | Generate OpenAPI annotations from PHP docblocks |
-| [redoc](https://github.com/Redocly/redoc)           | Static HTML visualizer for OpenAPI specs        |
-| [swagger-ui](https://swagger.io/tools/swagger-ui/) | Interactive browser-based UI                    |
-| [Speccy](https://github.com/wework/speccy)          | Validate/spec-check OpenAPI YAML/JSON           |
-| [Stoplight Studio](https://stoplight.io/studio/)   | Visual spec editing & mocking                   |
+| [redoc](https://github.com/Redocly/redoc)             | Static HTML visualizer for OpenAPI specs        |
+| [swagger-ui](https://swagger.io/tools/swagger-ui/)    | Interactive browser-based UI                    |
+| [Speccy](https://github.com/wework/speccy)            | Validate/spec-check OpenAPI YAML/JSON           |
+| [Stoplight Studio](https://stoplight.io/studio/)      | Visual spec editing & mocking                   |
 
 ---
 
@@ -64,7 +71,7 @@ $app->get('/docs', function () {
 
 ## 🔗 Related
 
-* [`docs/openapi-spec.md`](../openapi-spec.md)
+* [`docs/openapi-spec.md`](../api/openapi-spec.md)
 * [OpenAPI Spec v3](https://spec.openapis.org/oas/v3.0.3)
 * [Swagger-PHP GitHub](https://github.com/zircote/swagger-php)
 

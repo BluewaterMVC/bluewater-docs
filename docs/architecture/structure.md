@@ -1,13 +1,14 @@
-### 📘 `docs/structure.md` — Project Structure Reference
+# 🧱 Project Structure – Bluewater Framework
 
-
-# 🗂️ Project Structure – Bluewater Framework
-
-📁 File: `docs/structure.md`  
-📅 Status: Stable  
-🧠 Author: Jake (AI Systems Architect)
+📄 **File:** `docs/architecture/structure.md`  
+📅 **Status:** Published  
+🏷️ **Tags:** structure, folders, layout, psr  
+🔖 **Version:** 1.0  
+📦 **Scope:** 🌐 Public – External developers and integrators  
+👨‍💻 **Author:** Bluewater Team
 
 ---
+
 
 ## 📌 Purpose
 
@@ -131,7 +132,7 @@ This is the **read-only**, PSR-4 autoloaded core of the framework.
 ## 🔎 File Ownership Rules
 
 | Area      | Ownership    | Editable? | Notes                                  |
-| --------- | ------------ | --------- | -------------------------------------- |
+|-----------|--------------|-----------|----------------------------------------|
 | `vendor/` | Composer/pkg | ❌ No      | Never edit directly                    |
 | `app/`    | You          | ✅ Yes     | All business logic lives here          |
 | `bin/`    | Symlink      | ❌ No      | Use `vendor/bin` for CLI               |
@@ -152,10 +153,10 @@ This is the **read-only**, PSR-4 autoloaded core of the framework.
 
 ## 🔗 Related Documents
 
-- [📘 Architecture Overview](architecture.md)
+- [📘 Architecture Overview](../architecture/architecture.md)
 - [🗺️ Roadmap & Phases](roadmap.md)
-- [🧪 Testing & QA](testing.md)
-- [📄 Deployment Guide](deployment.md)
+- [🧪 Testing & QA](../testing/testing.md)
+- [📄 Deployment Guide](../deployment/deployment.md)
 
 ---
 

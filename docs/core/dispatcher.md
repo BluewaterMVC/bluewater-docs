@@ -1,4 +1,15 @@
-# 🧭 Module 2: Dispatcher Module
+### 🔁 `docs/core/dispatcher.md` — Stub Content
+
+# 🔁 Dispatcher – Bluewater Core Module
+
+📄 **File:** `docs/core/dispatcher.md`  
+📅 **Status:** Published  
+🏷️ **Tags:** core, dispatcher, middleware, psr-15  
+🔖 **Version:** 1.0  
+📦 **Scope:** 📦 Contributors – Core developers and middleware authors  
+👨‍💻 **Author:** Bluewater Team
+
+---
 
 The Dispatcher coordinates middleware execution by processing HTTP requests through a chain of callable middleware components. It adheres to [PSR-15](https://www.php-fig.org/psr/psr-15/), ensuring compatibility and composability.
 
@@ -22,7 +33,7 @@ interface MiddlewareInterface
 {
     public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface;
 }
-````
+```
 
 The dispatcher recursively builds the handler chain, allowing middleware to wrap or modify the request/response.
 
@@ -76,7 +87,7 @@ Ensure the following:
 * Early returns behave correctly
 * Final handler is called if not intercepted
 
-See [testing.md](../testing.md)
+See [testing.md](../testing/testing.md)
 
 ---
 
@@ -85,10 +96,8 @@ See [testing.md](../testing.md)
 * [Router](router.md)
 * [Middleware Guide](../middleware.md)
 * [Responder](responder.md)
-* [Architecture Spec](../architecture.md)
+* [Architecture Spec](../architecture/architecture.md)
 
 ---
 
 📎 Tags: `core`, `dispatcher`, `psr-15`, `middleware`, `pipeline`
-
-```

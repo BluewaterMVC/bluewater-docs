@@ -1,6 +1,13 @@
-# 🧠 Distributed Tracing
+# 🧭 Distributed Tracing – Bluewater
 
-> Tags: `#integrations` `#observability` `#monitoring` `#tracing` `#performance`
+📄 **File:** `docs/integrations/tracing.md`  
+📅 **Status:** Stub  
+🏷️ **Tags:** integrations, tracing, observability, devops  
+🔖 **Version:** 1.0  
+📦 **Scope:** 🌐 Public – Platform Engineers & SREs  
+👨‍💻 **Author:** Bluewater Team
+
+---
 
 ## Overview
 
@@ -21,12 +28,12 @@ While Bluewater does not include built-in tracing, it supports integration with 
 
 ## 📦 Recommended Tools
 
-| Tool                              | Description                                |
-|-----------------------------------|--------------------------------------------|
-| [OpenTelemetry PHP](https://opentelemetry.io/docs/instrumentation/php/) | Standard tracing & metrics SDK             |
-| [Jaeger](https://www.jaegertracing.io/)              | Distributed tracing backend via OpenTracing |
-| [Zipkin](https://zipkin.io/)                        | Lightweight trace collection + UI          |
-| [New Relic](https://newrelic.com/)                  | APM with tracing support                   |
+| Tool                                                                    | Description                                 |
+|-------------------------------------------------------------------------|---------------------------------------------|
+| [OpenTelemetry PHP](https://opentelemetry.io/docs/instrumentation/php/) | Standard tracing & metrics SDK              |
+| [Jaeger](https://www.jaegertracing.io/)                                 | Distributed tracing backend via OpenTracing |
+| [Zipkin](https://zipkin.io/)                                            | Lightweight trace collection + UI           |
+| [New Relic](https://newrelic.com/)                                      | APM with tracing support                    |
 
 ---
 
@@ -84,8 +91,6 @@ $span->end();
 
 * [OpenTelemetry PHP Docs](https://opentelemetry.io/docs/instrumentation/php/)
 * [`docs/integrations/monitoring.md`](monitoring.md)
-* [`docs/performance.md`](../performance.md)
+* [`docs/performance.md`](../deployment/performance.md)
 
 ---
-
-```

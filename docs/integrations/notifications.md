@@ -1,6 +1,13 @@
-# 🔔 Notification Integration
+# 🔔 Notifications Integration – Bluewater
 
-> Tags: `#integrations` `#notifications` `#email` `#sms` `#push` `#events`
+📄 **File:** `docs/integrations/notifications.md`  
+📅 **Status:** Stub  
+🏷️ **Tags:** integrations, notifications, webhooks, alerts  
+🔖 **Version:** 1.0  
+📦 **Scope:** 🌐 Public – Messaging Systems & Client APIs  
+👨‍💻 **Author:** Bluewater Team
+
+---
 
 ## Overview
 
@@ -10,12 +17,12 @@ Bluewater allows you to integrate third-party **notification services** to deliv
 
 ## ✉️ Notification Types
 
-| Type       | Tools/Providers                     | Use Cases                          |
-|------------|--------------------------------------|------------------------------------|
-| Email      | Mailgun, Postmark, SMTP, SendGrid    | Signup, alerts, reports            |
-| SMS        | Twilio, Plivo, AWS SNS               | OTPs, system alerts, critical logs |
-| Push       | Firebase Cloud Messaging (FCM), OneSignal | Mobile/web push notifications |
-| Webhook    | Custom HTTP receiver                 | Event dispatch to external systems |
+| Type    | Tools/Providers                           | Use Cases                          |
+|---------|-------------------------------------------|------------------------------------|
+| Email   | Mailgun, Postmark, SMTP, SendGrid         | Signup, alerts, reports            |
+| SMS     | Twilio, Plivo, AWS SNS                    | OTPs, system alerts, critical logs |
+| Push    | Firebase Cloud Messaging (FCM), OneSignal | Mobile/web push notifications      |
+| Webhook | Custom HTTP receiver                      | Event dispatch to external systems |
 
 ---
 
@@ -69,5 +76,3 @@ app/
 * [Twilio Docs](https://www.twilio.com/docs)
 
 ---
-
-```

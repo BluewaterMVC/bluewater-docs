@@ -2,11 +2,15 @@
 
 # 🧩 Multi-Tenant Architecture – Bluewater Framework
 
-📁 File: `docs/multi-tenant.md`  
-📅 Status: Draft  
-🧠 Author: Walter Torres (System Architect)
+📄 **File:** `docs/architecture/multi-tenant.md`  
+📅 **Status:** Published  
+🏷️ **Tags:** tenants, isolation, architecture  
+🔖 **Version:** 1.0  
+📦 **Scope:** 📦 Contributors – Developers building multi-client APIs  
+👨‍💻 **Author:** Walter Torres
 
 ---
+
 
 ## 📌 Purpose
 

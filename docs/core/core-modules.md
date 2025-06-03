@@ -1,11 +1,13 @@
+### 🧩 `docs/core-modules.md` — Stub Content
 
-### 📘 `docs/core-modules.md` — Stub Content
+# 🧩 Core Modules Overview – Bluewater Framework
 
-# 🧱 Core Modules – Bluewater Framework
-
-📁 File: `docs/core-modules.md`  
-📅 Status: Planned  
-🧠 Author: Jake (AI Systems Architect)
+📄 **File:** `docs/core/core-modules.md`  
+📅 **Status:** Published  
+🏷️ **Tags:** core, overview, modules, architecture  
+🔖 **Version:** 1.0  
+📦 **Scope:** 📦 Contributors – Developers working with the framework internals  
+👨‍💻 **Author:** Bluewater Team
 
 ---
 

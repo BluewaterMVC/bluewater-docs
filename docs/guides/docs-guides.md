@@ -1,12 +1,13 @@
-```markdown
-
 ### 📘 `docs/docs-guides.md` — Stub Content
 
-# 📘 Documentation & Guides – Bluewater Framework
+# 🚀 Getting Started – Bluewater Guides
 
-📁 File: `docs/docs-guides.md`  
-📅 Status: Planned  
-🧠 Author: Jake (AI Systems Architect)
+📄 **File:** `docs/guides/getting-started.md`  
+📅 **Status:** Published  
+🏷️ **Tags:** setup, installation, cli, first steps  
+🔖 **Version:** 1.0  
+📦 **Scope:** 🌐 Public – New developers and adopters  
+👨‍💻 **Author:** Bluewater Team
 
 ---
 
@@ -82,4 +83,3 @@ Goals:
 🧠 *Good frameworks work fast. Great ones are also documented.*  
 — Bluewater Principle
 ```
-

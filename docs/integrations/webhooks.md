@@ -1,6 +1,13 @@
-# 📬 Webhook Integration
+# 📬 Webhooks Integration – Bluewater
 
-> Tags: `#integrations` `#webhooks` `#events` `#inbound` `#outbound` `#security`
+📄 **File:** `docs/integrations/webhooks.md`  
+📅 **Status:** Stub  
+🏷️ **Tags:** integrations, webhooks, async, events  
+🔖 **Version:** 1.0  
+📦 **Scope:** 🌐 Public – External API Consumers  
+👨‍💻 **Author:** Bluewater Team
+
+---
 
 ## Overview
 
@@ -72,10 +79,8 @@ app/
 
 ## 🔗 Related
 
-* [`docs/integrations/payment.md`](payment.md)
+* [`docs/integrations/payment.md`](./payment.md)
 * [Stripe Webhooks](https://stripe.com/docs/webhooks)
 * [GitHub Webhooks](https://docs.github.com/en/webhooks)
 
 ---
-
-```

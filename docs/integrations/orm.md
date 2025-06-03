@@ -1,6 +1,13 @@
-# 🗄️ ORM Integration
+# 🧮 ORM Integration – Bluewater
 
-> Tags: `#integrations` `#orm` `#database` `#pdo`
+📄 **File:** `docs/integrations/orm.md`  
+📅 **Status:** Stub  
+🏷️ **Tags:** integrations, orm, doctrine, eloquent  
+🔖 **Version:** 1.0  
+📦 **Scope:** 🌐 Public – Backend Developers  
+👨‍💻 **Author:** Bluewater Team
+
+---
 
 ## Overview
 
@@ -70,10 +77,8 @@ $user = $stmt->fetch();
 
 ## 🔗 Related
 
-* [`docs/config/config.md`](../config/config.md)
+* [`docs/config/config.md`](../core/config.md)
 * [Doctrine ORM Docs](https://www.doctrine-project.org/projects/orm.html)
 * [Eloquent Standalone Guide](https://tinkerwell.app/docs/standalone-eloquent)
 
 ---
-
-```
