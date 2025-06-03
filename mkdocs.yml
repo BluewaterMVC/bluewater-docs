@@ -5,17 +5,81 @@ repo_url: https://github.com/BluewaterMVC/bluewater-docs
 docs_dir: docs
 theme:
   name: material
-  logo: assets/bluewater-logo.png  # optional, add your logo if you want
-  favicon: assets/favicon.ico      # optional
+  logo: assets/bluewater-logo.png   # Optional, if present
+  favicon: assets/favicon.ico       # Optional
 
 nav:
   - Home: index.md
+
+  - Architecture:
+      - Overview: architecture/architecture.md
+      - Structure: architecture/structure.md
+      - Multi-Tenant: architecture/multi-tenant.md
+      - Specifications: architecture/specifications.md
+      - Release: architecture/release.md
+      - Roadmap: architecture/roadmap.md
+
+  - Core Modules:
+      - Core Modules Overview: core/core-modules.md
+      - Router: core/router.md
+      - Dispatcher: core/dispatcher.md
+      - Responder: core/responder.md
+      - Middleware: core/middleware.md
+      - Logger: core/logger.md
+      - Config: core/config.md
+
+  - Security:
+      - Security Overview: security/security.md
+      - Auth Modules: security/auth-modules.md
+      - JWT: security/jwt.md
+      - OAuth: security/oauth.md
+      - NextGen Security: security/nextgen.md
+
+  - API:
+      - OpenAPI Generator: api/openapi.md
+      - OpenAPI Spec: api/openapi-spec.md
+      - Rate Limiting: api/rate-limiting.md
+      - Spec Format: api/spec-format.md
+      - Versioning: api/versioning.md
+
+  - Deployment:
+      - Deployment Guide: deployment/deployment.md
+      - Build Process: deployment/build-process.md
+      - Config Management: deployment/config-management.md
+      - Environments: deployment/environments.md
+
+  - CLI Tooling:
+      - CLI Tooling Overview: cli/cli-tooling.md
+
+  - Guides:
+      - Docs Writing Guide: guides/docs-guides.md
+      - Getting Started: guides/getting-started.md
+      - Project Layout: guides/project-layout.md
+      - Usage Examples: guides/usage-examples.md
+
+  - Testing:
+      - Testing Overview: testing/testing.md
+      - Unit Testing: testing/unit-testing.md
+      - Integration Testing: testing/integration-testing.md
+      - Mocking: testing/mocking.md
+
+  - Modules & Integrations:
+      - Auth Integration: modules/auth.md
+      - Cache: modules/cache.md
+      - Monitoring: modules/monitoring.md
+      - Queues: modules/queues.md
+
   - Meta:
+      - Meta Overview: meta/index.md
+      - Table of Contents: meta/_toc.md
+      - Extending Bluewater: meta/extending.md
       - FAQ: meta/faq.md
       - License: meta/license.md
       - Performance: meta/performance.md
       - Troubleshooting: meta/troubleshooting.md
       - Upgrading: meta/upgrading.md
-      - Extending: meta/extending.md
-      - TOC: meta/_toc.md
-  # Add other top-level sections as needed
+      - Contributing: meta/contributing.md
+
+assets:
+  - assets/bluewater-logo.png
+  - assets/favicon.ico
