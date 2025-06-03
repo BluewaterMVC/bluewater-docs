@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>📘 Bluewater Documentation Index</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      padding: 2rem;
+      background: #f8f9fa;
+      color: #333;
+    }
+    h1 { margin-bottom: 0; }
+    .section {
+      margin: 1rem 0;
+      border: 1px solid #ddd;
+      background: #fff;
+      border-radius: 5px;
+    }
+    summary {
+      cursor: pointer;
+      font-weight: bold;
+      padding: 0.75rem 1rem;
+      background: #eee;
+      border-bottom: 1px solid #ccc;
+      font-size: 1.1em;
+    }
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0.5rem 1.5rem 1rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    .tag {
+      display: inline-block;
+      background: #e1ecf4;
+      color: #0366d6;
+      border-radius: 3px;
+      padding: 2px 6px;
+      font-size: 0.8em;
+      margin-left: 0.5rem;
+    }
+    .filter-buttons {
+      margin-bottom: 1rem;
+    }
+    .filter-buttons button {
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+      padding: 4px 10px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      background: #eee;
+    }
+    .filter-buttons button.active {
+      background: #007bff;
+      color: white;
+    }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+
+<header class="intro">
+  <h1>📘 Bluewater Documentation</h1>
+  <p><strong>Official documentation site for the Bluewater Framework</strong> — a lightweight, high-performance backend PHP framework designed for building modular, multi-tenant REST APIs.</p>
+
+  <p>This documentation hub includes:</p>
+  <ul>
+    <li>📐 <strong>Architecture & Specifications</strong></li>
+    <li>🧱 <strong>Core Modules & Internals</strong></li>
+    <li>🛡 <strong>Security & Auth</strong></li>
+    <li>🔁 <strong>Multi-Tenant Support</strong></li>
+    <li>⚙️ <strong>CLI Tooling</strong></li>
+    <li>🧪 <strong>Testing & Quality Standards</strong></li>
+    <li>📦 <strong>Deployment Guides</strong></li>
+    <li>🔌 <strong>Third-Party Integrations</strong></li>
+    <li>🚧 <strong>Roadmap, Release Plans, and How-Tos</strong></li>
+  </ul>
+
+  <p>
+    🔗 View this site via GitHub Pages at:<br>
+    <code>https://&lt;your-username&gt;.github.io/bluewater-docs/</code>
+  </p>
+</header>
+
+<h1>📘 Bluewater Framework Documentation</h1>
+<p><em>Use filters to show docs by tag. All sections are collapsed by default.</em></p>
+
+<div class="filter-buttons">
+  <button data-tag="all" class="active">All</button>
+  <button data-tag="core">#core</button>
+  <button data-tag="security">#security</button>
+  <button data-tag="cli">#cli</button>
+  <button data-tag="testing">#testing</button>
+  <button data-tag="deployment">#deployment</button>
+  <button data-tag="api">#api</button>
+  <button data-tag="architecture">#architecture</button>
+  <button data-tag="guides">#guides</button>
+  <button data-tag="meta">#meta</button>
+</div>
+
+<!-- START: Sections (collapsed by default) -->
+
+<details class="section" open>
+  <summary>🏛️ Architecture</summary>
+  <ul>
+    <li><a href="architecture/architecture.md">Architecture Overview</a> <span class="tag">#architecture</span></li>
+    <li><a href="architecture/structure.md">Structure</a> <span class="tag">#architecture</span></li>
+    <li><a href="architecture/multi-tenant.md">Multi-Tenant</a> <span class="tag">#architecture</span></li>
+    <li><a href="architecture/specifications.md">Specifications</a> <span class="tag">#architecture</span></li>
+    <li><a href="architecture/release.md">Release Plan</a> <span class="tag">#architecture</span></li>
+    <li><a href="architecture/roadmap.md">Roadmap</a> <span class="tag">#architecture</span></li>
+  </ul>
+</details>
+
+<details class="section">
+  <summary>🧩 Core Modules</summary>
+  <ul>
+    <li><a href="core/core-modules.md">Core Modules</a> <span class="tag">#core</span></li>
+    <li><a href="core/router.md">Router</a> <span class="tag">#core</span></li>
+    <li><a href="core/dispatcher.md">Dispatcher</a> <span class="tag">#core</span></li>
+    <li><a href="core/responder.md">Responder</a> <span class="tag">#core</span></li>
+    <li><a href="core/middleware.md">Middleware</a> <span class="tag">#core</span></li>
+    <li><a href="core/logger.md">Logger</a> <span class="tag">#core</span></li>
+    <li><a href="core/config.md">Config</a> <span class="tag">#core</span></li>
+  </ul>
+</details>
+
+<details class="section">
+  <summary>🔐 Security</summary>
+  <ul>
+    <li><a href="security/auth-modules.md">Auth Modules</a> <span class="tag">#security</span></li>
+    <li><a href="security/jwt.md">JWT</a> <span class="tag">#security</span></li>
+    <li><a href="security/oauth.md">OAuth</a> <span class="tag">#security</span></li>
+    <li><a href="security/nextgen.md">NextGen Security</a> <span class="tag">#security</span></li>
+  </ul>
+</details>
+
+<details class="section">
+  <summary>🛠️ CLI Tooling</summary>
+  <ul>
+    <li><a href="cli/cli-tooling.md">CLI Tooling</a> <span class="tag">#cli</span></li>
+    <li><a href="guides/docs-guides.md">Docs Guide</a> <span class="tag">#guides</span></li>
+  </ul>
+</details>
+
+<details class="section">
+  <summary>🚀 Deployment</summary>
+  <ul>
+    <li><a href="deployment/deployment.md">Deployment</a> <span class="tag">#deployment</span></li>
+    <li><a href="deployment/build-process.md">Build Process</a> <span class="tag">#deployment</span></li>
+    <li><a href="deployment/config-management.md">Config Management</a> <span class="tag">#deployment</span></li>
+    <li><a href="deployment/environments.md">Environments</a> <span class="tag">#deployment</span></li>
+  </ul>
+</details>
+
+<details class="section">
+  <summary>🧪 Testing</summary>
+  <ul>
+    <li><a href="testing/testing.md">Testing Overview</a> <span class="tag">#testing</span></li>
+    <li><a href="testing/unit-testing.md">Unit Testing</a> <span class="tag">#testing</span></li>
+    <li><a href="testing/integration-testing.md">Integration Testing</a> <span class="tag">#testing</span></li>
+    <li><a href="testing/mocking.md">Mocking</a> <span class="tag">#testing</span></li>
+  </ul>
+</details>
+
+<details class="section">
+  <summary>🌐 API & Specification</summary>
+  <ul>
+    <li><a href="api/openapi.md">OpenAPI Generator</a> <span class="tag">#api</span></li>
+    <li><a href="api/openapi-spec.md">OpenAPI Spec</a> <span class="tag">#api</span></li>
+    <li><a href="api/rate-limiting.md">Rate Limiting</a> <span class="tag">#api</span></li>
+    <li><a href="api/spec-format.md">Spec Format</a> <span class="tag">#api</span></li>
+    <li><a href="api/versioning.md">Versioning</a> <span class="tag">#api</span></li>
+  </ul>
+</details>
+
+<details class="section">
+  <summary>🧠 Meta</summary>
+  <ul>
+    <li><a href="meta/faq.md">FAQ</a> <span class="tag">#meta</span></li>
+    <li><a href="meta/troubleshooting.md">Troubleshooting</a> <span class="tag">#meta</span></li>
+    <li><a href="meta/performance.md">Performance</a> <span class="tag">#meta</span></li>
+    <li><a href="meta/extending.md">Extending</a> <span class="tag">#meta</span></li>
+    <li><a href="meta/upgrading.md">Upgrading</a> <span class="tag">#meta</span></li>
+    <li><a href="../CHANGELOG.md">Changelog</a> <span class="tag">#meta</span></li>
+    <li><a href="../CONTRIBUTING.md">Contributing</a> <span class="tag">#meta</span></li>
+    <li><a href="meta/license.md">License</a> <span class="tag">#meta</span></li>
+  </ul>
+</details>
+
+<!-- END: Sections -->
+
+<script>
+  const filterButtons = document.querySelectorAll('.filter-buttons button');
+  const sections = document.querySelectorAll('.section');
+
+  filterButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterButtons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const tag = btn.dataset.tag;
+
+      sections.forEach(section => {
+        if (tag === 'all') {
+          section.classList.remove('hidden');
+          return;
+        }
+
+        const listItems = section.querySelectorAll('li');
+        let visible = false;
+
+        listItems.forEach(item => {
+          if (item.innerHTML.includes(`#${tag}`)) {
+            item.style.display = 'list-item';
+            visible = true;
+          } else {
+            item.style.display = 'none';
+          }
+        });
+
+        section.classList.toggle('hidden', !visible);
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
