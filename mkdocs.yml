@@ -1,0 +1,21 @@
+site_name: Bluewater Framework Documentation
+site_description: Official documentation for the Bluewater PHP framework
+site_author: Bluewater Team
+repo_url: https://github.com/BluewaterMVC/bluewater-docs
+docs_dir: docs
+theme:
+  name: material
+  logo: assets/bluewater-logo.png  # optional, add your logo if you want
+  favicon: assets/favicon.ico      # optional
+
+nav:
+  - Home: index.md
+  - Meta:
+      - FAQ: meta/faq.md
+      - License: meta/license.md
+      - Performance: meta/performance.md
+      - Troubleshooting: meta/troubleshooting.md
+      - Upgrading: meta/upgrading.md
+      - Extending: meta/extending.md
+      - TOC: meta/_toc.md
+  # Add other top-level sections as needed

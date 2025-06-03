@@ -31,13 +31,11 @@ This repository contains all structured, versioned documentation for:
 📄 Once published via GitHub Pages:
 
 ```
-
 https\://<your-username>.github.io/bluewater-docs/
-
 ```
 
 > See `_toc.md` or [docs/index.html](docs/index.html) for a full site navigation map.
-```
+
 ---
 
 ## 🚀 What is Bluewater?
@@ -248,9 +246,13 @@ bin/bluewater openapi:generate # Generate OpenAPI v3 spec
 
 ## 🤝 Contributing
 
+### Stay Connected
+
+For updates, ideas, and discussion, please use the [GitHub Issues](https://github.com/BluewaterMVC/bluewater-docs/issues) and [GitHub PRs](https://github.com/BluewaterMVC/bluewater-docs/pulls) tabs in this repository.
+
 PRs and issues are welcome!
 
-* 🔗 [Contribution Guide](docs/meta/contributing.md)
+* 🔗 [Contribution Guide](./CONTRIBUTING.md)
 * 🧹 Follow [PSR-12](https://www.php-fig.org/psr/psr-12/)
 * 📄 Use [PHPDoc](https://docs.phpdoc.org/) on all methods/classes
 
