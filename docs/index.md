@@ -1,126 +1,129 @@
-# 📘 Bluewater Framework – Documentation Index
+### 📄 `/docs/index.md`
 
-Welcome to the internal documentation for the **Bluewater PHP Framework**. Use the tag list below to explore by topic.
-
----
-
-## 🏷️ Tags
-
-| Tag | Links |
-|-----|-------|
-| `#api` | [API](#api) |
-| `#auth` | [Security](#security) |
-| `#cli` | [CLI](#cli) |
-| `#core` | [Core Modules](#core-modules) |
-| `#deployment` | [Deployment](#deployment) |
-| `#design` | [Architecture](#architecture) |
-| `#docs` | [Guides](#guides) |
-| `#examples` | [Guides](#guides) |
-| `#extensions` | [Modules](#modules) |
-| `#framework` | [Core Modules](#core-modules) |
-| `#integration` | [Testing](#testing) |
-| `#jwt` | [Security](#security) |
-| `#middleware` | [Security](#security), [Core Modules](#core-modules) |
-| `#openapi` | [API](#api) |
-| `#ops` | [Deployment](#deployment) |
-| `#psr` | [Core Modules](#core-modules) |
-| `#structure` | [Architecture](#architecture) |
-| `#testing` | [Testing](#testing) |
-| `#unit` | [Testing](#testing) |
-| `#versioning` | [API](#api) |
+📅 **Last Updated:** 2025-06-02
+🔖 **Version:** 1.0
+📦 **Scope:** 📚 Global Documentation Index for Bluewater
+🏷️ **Tags:** index, toc, navigation, structure
 
 ---
 
-## 📂 Document Sections
+# 📚 Bluewater Framework — Documentation Index
 
-
----
-
-## 🏛️ Architecture `#design` `#structure` `#lifecycle`
-- [Architecture](architecture/architecture.md)
-- [Structure](architecture/structure.md)
-- [Multi-Tenant Support](architecture/multi-tenant.md)
-- [Roadmap](architecture/roadmap.md)
-- [Release Planning](architecture/release.md)
-- [Specifications](architecture/specifications.md)
+Welcome to the **official Bluewater Docs Hub**.
+This index links to all internal framework documentation grouped by domain and feature. Use this to navigate across architecture, APIs, security, integration, and contributor guides.
 
 ---
 
-## 🧩 Core Modules `#core` `#psr` `#framework`
-- [Core Modules Overview](core/core-modules.md)
-- [Router](core/router.md)
-- [Dispatcher](core/dispatcher.md)
-- [Responder](core/responder.md)
-- [Middleware](core/middleware.md)
-- [Logger](core/logger.md)
-- [Config](core/config.md)
+## 🧠 Architecture & Design
+
+* [`architecture.md`](./architecture/architecture.md) – Design principles and layout
+* [`multi-tenant.md`](./architecture/multi-tenant.md) – Per-client directory strategy
+* [`structure.md`](./architecture/structure.md) – File layout and modular boundaries
+* [`specifications.md`](./architecture/specifications.md) – Feature and technical specs
+* [`release.md`](./architecture/release.md) – Versioning and lifecycle
+* [`roadmap.md`](./architecture/roadmap.md) – Timeline and progress tracking
 
 ---
 
-## 🔐 Security `#auth` `#jwt` `#oauth` `#middleware`
-- [Auth Modules](security/auth-modules.md)
-- [JWT](security/jwt.md)
-- [OAuth](security/oauth.md)
-- [Next-Gen Security](security/nextgen.md)
+## 📦 Core Modules
+
+* [`core-modules.md`](./core/core-modules.md) – High-level overview of framework components
+* [`router.md`](./core/router.md) – Route resolution and matching
+* [`dispatcher.md`](./core/dispatcher.md) – Middleware dispatcher engine
+* [`responder.md`](./core/responder.md) – JSON response handler
+* [`middleware.md`](./core/middleware.md) – Global and client-specific middleware
+* [`logger.md`](./core/logger.md) – PSR-3 logging abstraction
+* [`config.md`](./core/config.md) – Config loader and runtime environment
 
 ---
 
-## 💻 CLI `#cli` `#dev-tools`
-- [CLI Tooling](cli/cli-tooling.md)
+## 🛠️ CLI & Developer Tooling
+
+* [`cli-tooling.md`](./cli/cli-tooling.md) – Available CLI commands
+* [`docs-guides.md`](./guides/docs-guides.md) – Internal contributor help and examples
 
 ---
 
-## 🚀 Deployment `#deployment` `#ops` `#environments`
-- [Deployment Overview](deployment/deployment.md)
-- [Build Process](deployment/build-process.md)
-- [Config Management](deployment/config-management.md)
-- [Environment Setup](deployment/environments.md)
+## 📡 API
+
+* [`openapi.md`](./api/openapi.md) – OpenAPI integration setup
+* [`openapi-spec.md`](./api/openapi-spec.md) – Sample schema and docs
+* [`rate-limiting.md`](./api/rate-limiting.md) – Endpoint rate limiting strategies
+* [`spec-format.md`](./api/spec-format.md) – JSON and error formatting
+* [`versioning.md`](./api/versioning.md) – API lifecycle and versioning support
 
 ---
 
-## 📚 Guides `#getting-started` `#examples` `#docs`
-- [Documentation Guides](guides/docs-guides.md)
-- [Getting Started](guides/getting-started.md)
-- [Project Layout](guides/project-layout.md)
-- [Usage Examples](guides/usage-examples.md)
+## 🔐 Security
+
+* [`auth-modules.md`](./security/auth-modules.md) – Supported authentication systems
+* [`jwt.md`](./security/jwt.md) – JSON Web Tokens
+* [`oauth.md`](./security/oauth.md) – OAuth 2.0 plugin design
+* [`nextgen.md`](./security/nextgen.md) – Future security models (mTLS, key rotation)
 
 ---
 
-## 🧪 Testing `#testing` `#unit` `#integration`
-- [Testing Overview](testing/testing.md)
-- [Unit Testing](testing/unit-testing.md)
-- [Integration Testing](testing/integration-testing.md)
-- [Mocking](testing/mocking.md)
+## 🧪 Testing & Quality
+
+* [`testing.md`](./testing/testing.md) – Overview of test architecture
+* [`unit-testing.md`](./testing/unit-testing.md) – Test logic in isolation
+* [`integration-testing.md`](./testing/integration-testing.md) – Full-stack functional tests
+* [`mocking.md`](./testing/mocking.md) – Mocking patterns and utilities
 
 ---
 
-## 📘 API `#api` `#openapi` `#versioning`
-- [OpenAPI Generator](api/openapi.md)
-- [OpenAPI Spec](api/openapi-spec.md)
-- [Rate Limiting](api/rate-limiting.md)
-- [Spec Format](api/spec-format.md)
-- [Versioning](api/versioning.md)
+## 🚀 Deployment
+
+* [`deployment.md`](./deployment/deployment.md) – Hosting requirements and strategy
+* [`build-process.md`](./deployment/build-process.md) – Building and packaging
+* [`config-management.md`](./deployment/config-management.md) – Config formats and merging
+* [`environments.md`](./deployment/environments.md) – `.env` usage and environment switching
 
 ---
 
-## 📦 Modules `#integrations` `#extensions`
-- [Auth Integration](modules/auth.md)
-- [Cache Integration](modules/cache.md)
-- [Monitoring Tools](modules/monitoring.md)
-- [Queue Systems](modules/queues.md)
+## 🔌 Integrations
+
+* [`auth.md`](./integrations/auth.md)
+* [`cache.md`](./integrations/cache.md)
+* [`monitoring.md`](./integrations/monitoring.md)
+* [`queues.md`](./integrations/queues.md)
+* [`cdn.md`](./integrations/cdn.md)
+* [`emails.md`](./integrations/emails.md)
+* [`file-storage.md`](./integrations/file-storage.md)
+* [`notifications.md`](./integrations/notifications.md)
+* [`openapi-tools.md`](./integrations/openapi-tools.md)
+* [`orm.md`](./integrations/orm.md)
+* [`payment.md`](./integrations/payment.md)
+* [`rate-limit.md`](./integrations/rate-limit.md)
+* [`search.md`](./integrations/search.md)
+* [`tracing.md`](./integrations/tracing.md)
+* [`webhooks.md`](./integrations/webhooks.md)
 
 ---
 
-## 🧠 Meta / Other `#faq` `#debugging` `#legal`
-- [FAQ](meta/faq.md)
-- [Troubleshooting](meta/troubleshooting.md)
-- [Performance Targets](meta/performance.md)
-- [Extending Bluewater](meta/extending.md)
-- [Upgrading](meta/upgrading.md)
-- [License](meta/license.md)
-- [TOC (_toc)](meta/_toc.md)
+## 📘 Guides & Help
+
+* [`getting-started.md`](./guides/getting-started.md)
+* [`project-layout.md`](./guides/project-layout.md)
+* [`usage-examples.md`](./guides/usage-examples.md)
+* [`faq.md`](./meta/faq.md)
+* [`troubleshooting.md`](./meta/troubleshooting.md)
+* [`upgrading.md`](./meta/upgrading.md)
+* [`extending.md`](./meta/extending.md)
 
 ---
 
-📁 To view a visual + interactive index, see: [📄 docs/index.html](./index.html)
+## 🧾 Metadata & Site
 
+* [`_toc.md`](./meta/_toc.md)
+* [`index.md`](./meta/index.md) ← You are here
+* [`license.md`](./meta/license.md)
+* [`CONTRIBUTING.md`](../CONTRIBUTING.md)
+
+---
+
+📘 *This index is generated and manually maintained. For additions, update `_toc.md` or the docs builder.*
+Want this as a GitHub Pages view? Visit:
+🌐 [`https://bluewatermvc.github.io/bluewater-docs`](https://bluewatermvc.github.io/bluewater-docs)
+
+---

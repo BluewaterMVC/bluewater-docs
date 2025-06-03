@@ -1,6 +1,17 @@
-# 📚 Bluewater Documentation TOC
+# 🧭 Documentation Table of Contents – Bluewater
 
-_All links are relative to this file (`docs/meta/_toc.md`)._
+📄 **File:** `docs/meta/_toc.md`  
+📅 **Status:** Active  
+🏷️ **Tags:** meta, navigation, toc  
+🔖 **Version:** 1.0  
+📦 **Scope:** 🛠️ Internal – Project Docs Team  
+👨‍💻 **Author:** Bluewater Team
+
+---
+
+## 📘 OVERVIEW
+
+This file defines the **manual Table of Contents** for Bluewater’s documentation set. It helps maintainers and static doc tools structure nav lists consistently across HTML and markdown viewers.
 
 ---
 
