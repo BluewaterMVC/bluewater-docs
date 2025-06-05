@@ -1,0 +1,8 @@
+title: architecture
+order:
+  - architecture.md
+  - specifications.md
+  - multi-tenant.md
+  - structure.md
+  - release.md
+  - roadmap.md
