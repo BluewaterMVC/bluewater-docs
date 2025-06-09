@@ -44,11 +44,11 @@ Avoid cross-service foreign key constraints. Instead, rely on:
 
 Data isolation depends on deployment mode:
 
-| Mode           | Strategy                          |
-|----------------|-----------------------------------|
-| Shared DB      | `tenant_id` column in each table  |
-| Schema-per-tenant | Isolated schema namespaces      |
-| DB-per-tenant  | Separate databases per tenant     |
+| Mode              | Strategy                         |
+|-------------------|----------------------------------|
+| Shared DB         | `tenant_id` column in each table |
+| Schema-per-tenant | Isolated schema namespaces       |
+| DB-per-tenant     | Separate databases per tenant    |
 
 Use `tenant_id` in all queries to enforce logical separation.
 
