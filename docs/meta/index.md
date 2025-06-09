@@ -48,7 +48,7 @@ This file provides the landing page for the Bluewater Docs site. It links major 
 
 | Title                      | Link                                         | Description                              |
 |----------------------------|----------------------------------------------|------------------------------------------|
-| Deployment Guide           | [deployment.md](../deployment/deployment.md) | NGINX/Apache setup, environment, caching |
+| Deployment Guide           | [deployment.md](../deployment/deployment-guide.md) | NGINX/Apache setup, environment, caching |
 | Release & Tagging Strategy | [release.md](../architecture/release.md)     | Composer packaging and versioning flow   |
 
 ---

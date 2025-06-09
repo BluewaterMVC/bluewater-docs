@@ -74,7 +74,7 @@ This index links to all internal framework documentation grouped by domain and f
 
 ## 🚀 Deployment
 
-* [`deployment.md`](./deployment/deployment.md) – Hosting requirements and strategy
+* [`deployment.md`](deployment/deployment-guide.md) – Hosting requirements and strategy
 * [`build-process.md`](./deployment/build-process.md) – Building and packaging
 * [`config-management.md`](./deployment/config-management.md) – Config formats and merging
 * [`environments.md`](./deployment/environments.md) – `.env` usage and environment switching

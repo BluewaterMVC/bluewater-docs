@@ -56,7 +56,7 @@ This file defines the **manual Table of Contents** for Bluewater’s documentati
 
 ## 🚀 Deployment
 
-- [Deployment Overview](../deployment/deployment.md)
+- [Deployment Overview](../deployment/deployment-guide.md)
 - [Build Process](../deployment/build-process.md)
 - [Config Management](../deployment/config-management.md)
 - [Environments](../deployment/environments.md)

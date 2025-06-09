@@ -68,7 +68,7 @@ $config = Config::get('auth.jwt.secret');
 ## 🔗 Related
 
 * [Architecture Spec](../architecture/architecture.md)
-* [Deployment Guide](../deployment/deployment.md)
+* [Deployment Guide](../deployment/deployment-guide.md)
 * [Router](router.md)
 
 ---

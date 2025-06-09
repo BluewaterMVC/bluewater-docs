@@ -1,6 +1,6 @@
 # 🚀 Deployment Overview – Bluewater Framework
 
-📄 **File:** `docs/deployment/deployment.md`  
+📄 **File:** `docs/deployment/deployment-guide.md`  
 📅 **Status:** Published  
 🏷️ **Tags:** deployment, hosting, production, devops  
 🔖 **Version:** 1.0  

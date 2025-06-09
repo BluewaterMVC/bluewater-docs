@@ -79,7 +79,7 @@ cache/
 
 * [Flysystem Docs](https://flysystem.thephpleague.com/)
 * [S3 SDK Docs](https://docs.aws.amazon.com/sdk-for-php/)
-* [`docs/deployment.md`](../deployment/deployment.md)
+* [`docs/deployment.md`](../deployment/deployment-guide.md)
 
 ---
 
