@@ -25,14 +25,14 @@ The goal is to maintain consistency, enforce clear contracts, and facilitate sec
 
 ## 🧭 What This Layer Covers
 
-| Section              | Description |
-|----------------------|-------------|
-| Routing              | Path structure, versioning, namespaces |
-| Payload Contracts    | Request/response formats, validation, schemas |
-| Auth & Security      | Access control, token handling, scope enforcement |
-| Error Handling       | Unified error response structure |
-| Docs & Metadata      | OpenAPI specs, developer-facing documentation |
-| Testing              | API-level testing strategy and automation support |
+| Section           | Description                                       |
+|-------------------|---------------------------------------------------|
+| Routing           | Path structure, versioning, namespaces            |
+| Payload Contracts | Request/response formats, validation, schemas     |
+| Auth & Security   | Access control, token handling, scope enforcement |
+| Error Handling    | Unified error response structure                  |
+| Docs & Metadata   | OpenAPI specs, developer-facing documentation     |
+| Testing           | API-level testing strategy and automation support |
 
 ---
 
@@ -61,7 +61,7 @@ APIs enforce security via:
 * Input validation at both controller and schema levels
 * Role-based access for internal APIs
 
-See [platform/security.md](../security.md) for broader system-level auth models.
+See [Security](../security.md) for broader system-level auth models.
 
 ---
 

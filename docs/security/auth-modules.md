@@ -1,83 +1,54 @@
-### 📄 `docs/security/auth-modules.md`
+📘 docs/security/auth-modules.md — Authentication Modules
+🛡️ Authentication Modules – Bluewater Framework
+📄 File: docs/security/auth-modules.md
+🧮 Status: ✍️ Draft
+🛫 ETA: 2025-06-27
+🔖 Version: 0.1
+📅 Date: 2025-06-09
+🏷️ Tags: security, authentication, jwt, oauth
+🌍 Scope: Define available authentication mechanisms in the Bluewater Framework and how they are configured, swapped, and integrated per tenant
+👥 Contributors: – Core developers, DevOps engineers, platform integrators
+👨‍💻 Author: Bluewater Core Team
 
-# 🛡️ Authentication Modules – Bluewater Framework
+📘 Overview
+This document outlines the pluggable authentication modules supported by Bluewater. These are designed to accommodate stateless, secure, tenant-aware authentication strategies optimized for API-first use cases.
 
-📄 **File:** `docs/security/auth-modules.md`  
-📅 **Status:** Stub  
-🏷️ **Tags:** security, authentication, jwt, oauth  
-🔖 **Version:** 1.0  
-📦 **Scope:** 🔐 Security – Developers & DevOps  
-👨‍💻 **Maintainer:** Bluewater Core Team
+🪶 Bluewater Principle
+Security should be consistent, transparent, and tenant-aware.
 
----
+🔐 Supported Authentication Modules
+Module	Description
+JWT	Stateless token-based auth; simple and widely adopted
+OAuth2	Delegated authorization with external providers
+Next-Gen Auth	Reserved for future pluggable strategies (e.g., mTLS, HMAC)
+Each module is configured per tenant and can be swapped dynamically based on configuration.
 
-## 📘 OVERVIEW
-
-This document outlines the authentication modules supported in Bluewater, providing pluggable and per-tenant mechanisms for securing APIs. The goal is to enable **computer-to-computer communication** with flexibility and future expansion.
-
----
-
-## 🔐 Supported Authentication Strategies
-
-| Module                        | Description                                                  |
-|-------------------------------|--------------------------------------------------------------|
-| [JWT](./jwt.md)               | Token-based, stateless authentication                        |
-| [OAuth2](./oauth.md)          | Delegated auth, per-client config                            |
-| [Next-Gen Auth](./nextgen.md) | Each module can be activated per-tenant via config settings. |
-
----
-
-## 🧱 Directory Structure
-
-```txt
+🧱 Authentication Directory Layout
 /src/Bluewater/Security/
 ├── jwt/
 ├── oauth/
 └── nextgen/
-````
+Each folder contains a fully-encapsulated strategy and adheres to a shared authentication interface for flexibility and testability.
 
-These folders contain interfaces and pluggable implementations.
+🧩 Integration Strategy
+Defined in tenant config:
+return [
+'auth' => [
+'driver' => 'jwt',
+'issuer' => 'client-name',
+'secret' => 'your-client-secret'
+]
+];
+Drivers are loaded dynamically at runtime based on this configuration.
+Middleware attaches the chosen driver per request context.
+Supports multi-tenancy, statelessness, and horizontal scaling.
+🔁 Swappable Auth Architecture
+All auth modules implement a common interface, making them interchangeable and extensible. Benefits include:
 
----
-
-## 🧩 Integration Strategy
-
-* Defined in tenant config:
-
-  ```php
-  return [
-    'auth' => [
-      'driver' => 'jwt',
-      'issuer' => 'client-name',
-      'secret' => 'your-client-secret'
-    ]
-  ];
-  ```
-
-* Middleware pulls correct driver at runtime
-
-* Stateless design enables horizontal scaling
-
----
-
-## 🔄 Swappable Design
-
-All modules follow a common interface pattern, making it easy to:
-
-* Replace JWT with OAuth2 without core changes
-* Extend drivers for enterprise-specific policies
-* Create mocks for testing
-
----
-
-## 🔗 Related
-
-* [`middleware.md`](../core/middleware.md) – For adding authentication filters
-* [`multi-tenant.md`](../architecture/multi-tenant.md) – Per-client auth strategy
-* [PSR-15 Middleware Spec](https://www.php-fig.org/psr/psr-15/)
-
----
-
-🔐 *Security should be consistent, transparent, and tenant-aware.*
-
----
+🔄 Swap jwt for oauth without core rewrites
+🧪 Plug in mocks for secure unit/integration testing
+🏢 Extend modules with enterprise-specific policies
+🔗 Related Documents
+middleware.md – Add authentication filters via PSR-15
+multi-tenant.md – Per-tenant strategy integration
+PSR-15 Middleware Spec

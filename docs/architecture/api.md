@@ -1,6 +1,3 @@
-Here is the full `docs/architecture/api.md` document in Markdown format:
-
-```markdown
 ### 📘 `docs/architecture/api.md` — API Architecture
 
 # 📡 API Architecture – Bluewater Framework
@@ -97,9 +94,10 @@ Host: tenant1.api.domain.com
 
 Tenancy is enforced via:
 
-1. **Subdomain Routing**:
+ 1. **Subdomain Routing**:
  - `tenant1.api.domain.com`
-2. **Header Resolution**:
+ - 
+ 2. **Header Resolution**:
  - `X-Tenant-ID: tenant1`
 
 Token context and header values must match. Mismatches trigger `403 Forbidden`.

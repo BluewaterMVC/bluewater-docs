@@ -17,7 +17,7 @@ This file defines the **manual Table of Contents** for Bluewater’s documentati
 
 ## 🏛️ Architecture
 
-- [Architecture Overview](../architecture/architecture.md)
+- [Architecture Overview]../architecture/system-overview.md
 - [Structure](../architecture/structure.md)
 - [Multi-Tenant](../architecture/multi-tenant.md)
 - [Specifications](../architecture/specifications.md)

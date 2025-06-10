@@ -71,10 +71,10 @@ This document provides a high-level inventory of the primary components that com
 
 ## 🛠️ Blueprint References
 
-- [`blueprints/service`](../blueprints/service/README.md)
-- [`blueprints/module`](../blueprints/module/README.md)
-- [`blueprints/event`](../blueprints/domain-event/README.md)
-- [`platform/api`](../platform/api/README.md)
+- [`Service`](../blueprints/service/README.md)
+- [`Module`](../blueprints/module/README.md)
+- [`Event`](../blueprints/domain-event/README.md)
+- [`API`](../platform/api/README.md)
 
 ---
 

@@ -48,7 +48,11 @@ Bluewater runs in a fully containerized, cloud-native environment. The platform 
 | **Storage & State**         | PostgreSQL, Redis, S3 (or MinIO)    | Persistent data stores for services and queues                              |
 | **Secrets Management**      | HashiCorp Vault, Kubernetes Secrets | Stores environment variables, credentials, and encryption keys              |
 
-> 📌 Most of these layers are defined in [Ddeployment](../deployment/) and [Configuration`](../configuration/)
+📌 Most of these layers are explained in the [Deployment Strategy](./deployment.md) and [Infrastructure Guide](../deployment/infrastructure.md).
+
+📌 Configuration details are documented in the [Runtime Configuration Guide](../configuration/runtime.md).
+
+
 
 ### 🛠 Example Infrastructure Flow
 
@@ -64,7 +68,7 @@ Bluewater runs in a fully containerized, cloud-native environment. The platform 
 
 ## 📊 System Diagram
 
-![Bluewater Architecture Diagram](../assets/diagrams/bluewater-architecture-v1.png)
+![Bluewater Architecture Diagram](../assets/diagrams/architecture/bluewater-architecture-v1.png)
 
 > This diagram illustrates service boundaries, API flows, and infrastructure layers.  
 > It follows the north-south (external-internal) request pattern and east-west (service-to-service) interactions.

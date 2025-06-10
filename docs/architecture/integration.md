@@ -1,9 +1,3 @@
-Great. I’ll now generate the full `docs/architecture/integration.md` document, covering integration strategy with external systems, patterns, and best practices. Diagram placeholders will be included where useful.
-
-
-Here is the complete `docs/architecture/integration.md` document, ready for your Bluewater documentation suite:
-
-````markdown
 ### 📘 `docs/architecture/integration.md` — External Integration Architecture
 
 # 🔗 Integration Architecture – Bluewater Framework

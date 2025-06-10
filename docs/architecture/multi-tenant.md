@@ -109,7 +109,7 @@ Each tenant may have a custom directory under `/app/` for overrides or tenant-sp
 ```
 
 This layout allows isolated customization while leveraging common shared logic.
-See [`app/common/README.md`](../app/common/README.md) for usage guidance
+See [`Common README`](../app/common/README.md) for usage guidance
 
 ---
 

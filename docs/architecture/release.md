@@ -26,13 +26,13 @@ Goals:
 
 ## 🗂️ Release Types
 
-| Type      | Tag Format    | Notes                            |
-|-----------|---------------|----------------------------------|
-| Stable    | `v1.0.0`      | Production-ready release         |
-| Patch     | `v1.0.1`      | Bugfix or internal improvement   |
-| Minor     | `v1.1.0`      | Backward-compatible features     |
-| Major     | `v2.0.0`      | Breaking changes                 |
-| Pre-Release | `v1.0.0-beta1` | Preview for feedback/testing    |
+| Type        | Tag Format     | Notes                          |
+|-------------|----------------|--------------------------------|
+| Stable      | `v1.0.0`       | Production-ready release       |
+| Patch       | `v1.0.1`       | Bugfix or internal improvement |
+| Minor       | `v1.1.0`       | Backward-compatible features   |
+| Major       | `v2.0.0`       | Breaking changes               |
+| Pre-Release | `v1.0.0-beta1` | Preview for feedback/testing   |
 
 Based on [SemVer](https://semver.org/)
 

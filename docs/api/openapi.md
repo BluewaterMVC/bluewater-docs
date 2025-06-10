@@ -1,16 +1,23 @@
-### 📘 `docs/api/openapi.md` — Stub Content
+### 📘 `docs/api/openapi.md` — OpenAPI Support
 
 # 📡 OpenAPI Support – Bluewater Framework
 
 📄 **File:** `docs/api/openapi.md`  
-📅 **Status:** Published  
+🧮 **Status:** ✍️ Draft  
+🛫 **ETA:** 2025-06-27  
+🔖 **Version:** 0.1  
+📅 **Date:** 2025-06-06  
 🏷️ **Tags:** api, openapi, specification  
-🔖 **Version:** 1.0  
-📦 **Scope:** 🌐 Public – API consumers, integrators  
+🌍 **Scope:** Define how to document and expose tenant-specific APIs using OpenAPI v3.  
+👥 **Contributors:** – API designers, client integrators, QA engineers  
 👨‍💻 **Author:** Bluewater Team
 
 ---
 
+> ### 🪶 **Bluewater Principle**
+> *A fast API means nothing if no one knows how to use it.*
+
+---
 
 ## 📌 Purpose
 
@@ -84,22 +91,18 @@ Or specify OAuth2 flow if supported by tenant.
 
 ---
 
-## 🔄 Runtime Usage (Planned)
+## 🔄 Future Capabilities (Planned)
 
-Future support for:
-
-* 📦 Auto-route listing to YAML
-* 📃 Inline doc annotations → OpenAPI fragment generator
-* 🔁 Swagger/Redoc proxy route (e.g. `/docs/api`)
+- 📦 `bin/bluewater openapi:validate` CLI validator
+- 🛠 Auto-generation hooks for route introspection
+- 🧭 Reverse proxy route to render Swagger/Redoc UI (e.g., `/docs/api/`)
 
 ---
 
 ## 🧭 Next Steps
 
-* [ ] Define minimum required fields per spec
-* [ ] Add `bin/bluewater openapi:validate`
-* [ ] Provide Redoc integration instructions
+- [ ] Establish required OpenAPI fields per module
+- [ ] Provide validation schema and CLI integration
+- [ ] Document Redoc/Swagger hosting patterns for production
 
 ---
-
-🧠 *A fast API means nothing if no one knows how to use it. OpenAPI fixes that.*

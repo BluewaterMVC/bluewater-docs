@@ -25,12 +25,12 @@ This document outlines the strategic deployment model used in the Bluewater Fram
 
 ## 🌐 Environment Tiers
 
-| Environment | Purpose                 | Characteristics                  |
-|-------------|--------------------------|----------------------------------|
-| **Local**   | Developer sandbox        | `.env.local`, no auth, mocks     |
-| **UAT**     | Internal testing & QA    | Feature branches, seeded data    |
-| **Staging** | Pre-production shadow    | Full config, auth, observability |
-| **Production** | Live platform       | Hardened, locked, monitored      |
+| Environment    | Purpose               | Characteristics                  |
+|----------------|-----------------------|----------------------------------|
+| **Local**      | Developer sandbox     | `.env.local`, no auth, mocks     |
+| **UAT**        | Internal testing & QA | Feature branches, seeded data    |
+| **Staging**    | Pre-production shadow | Full config, auth, observability |
+| **Production** | Live platform         | Hardened, locked, monitored      |
 
 Each environment uses isolated secrets and config layers.
 
@@ -41,7 +41,7 @@ Each environment uses isolated secrets and config layers.
 - Services deployed as containerized units (e.g., Docker)
 - Orchestrated via Compose, ECS, or Kubernetes
 - Config and secrets injected at runtime
-- Healthcheck & readiness probes required
+- Health-check & readiness probes required
 - Routing handled by central API Gateway
 
 <!-- Diagram: deployment-architecture -->

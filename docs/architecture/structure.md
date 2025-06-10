@@ -153,7 +153,7 @@ This is the **read-only**, PSR-4 autoloaded core of the framework.
 
 ## 🔗 Related Documents
 
-- [📘 Architecture Overview](../architecture/architecture.md)
+- [📘 Architecture Overview]../architecture/system-overview.md
 - [🗺️ Roadmap & Phases](roadmap.md)
 - [🧪 Testing & QA](../testing/testing.md)
 - [📄 Deployment Guide](../deployment/deployment-guide.md)

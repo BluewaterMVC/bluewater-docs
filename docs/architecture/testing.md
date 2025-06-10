@@ -127,7 +127,7 @@ Output integrated into CI artifacts and dashboards.
 
 ## 📚 Related Documents
 
-* [CI/CD Pipeline](../../deployment/ci-cd.md)
+* [CI/CD Pipeline](../deployment/ci-cd.md)
 * [Service Architecture](./services.md)
 * [API Architecture](./api.md)
 

@@ -1,6 +1,3 @@
-Here is the complete `docs/architecture/policies.md` document, using your standardized format and tone:
-
-```markdown
 ### 📘 `docs/architecture/policies.md` — Platform Policies
 
 # 📜 Platform Policies – Bluewater Framework
@@ -37,12 +34,12 @@ This document defines high-level policies that govern the operation, security, r
 
 ## 🧠 Data Retention & Handling
 
-| Data Type        | Retention Period | Storage Rule                        |
-|------------------|------------------|--------------------------------------|
-| Access Logs      | 90 days          | Redacted, encrypted at rest         |
-| Application Logs | 30 days          | Partitioned per environment         |
-| User PII         | Until account deletion | Encrypted, tenant-isolated     |
-| Audit Trails     | 12 months        | Immutable and queryable by admins   |
+| Data Type        | Retention Period       | Storage Rule                      |
+|------------------|------------------------|-----------------------------------|
+| Access Logs      | 90 days                | Redacted, encrypted at rest       |
+| Application Logs | 30 days                | Partitioned per environment       |
+| User PII         | Until account deletion | Encrypted, tenant-isolated        |
+| Audit Trails     | 12 months              | Immutable and queryable by admins |
 
 PII must be redacted from logs by default. Exported data must be encrypted.
 
@@ -90,7 +87,7 @@ PII must be redacted from logs by default. Exported data must be encrypted.
 - Violations must be logged, reviewed, and tracked  
 - Exceptions must be approved via RFC and logged by platform governance  
 
-![Policy Compliance Lifecycle](../assets/diagrams/policy-compliance-lifecycle.png)
+![Policy Compliance Lifecycle](../assets/diagrams/architecture/policy-compliance-lifecycle.png)
 
 ---
 

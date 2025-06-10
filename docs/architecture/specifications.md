@@ -47,15 +47,15 @@ It ensures that all contributors and consumers share a consistent understanding 
 
 ## 📄 PSR Compliance
 
-| PSR Standard   | Used In Module(s)                     |
-|----------------|---------------------------------------|
-| PSR-1 / PSR-12 | Coding style + structure              |
-| PSR-4          | Autoloading                           |
-| PSR-3          | Logging                               |
-| PSR-7          | HTTP messages (request/response)      |
-| PSR-11         | (future) Service container (optional) |
-| PSR-15         | Middleware interfaces                 |
-| PSR-17         | HTTP factories                        |
+| PSR Standard                                                                                | Used In Module(s)                     |
+|---------------------------------------------------------------------------------------------|---------------------------------------|
+| [PSR-1](https://www.php-fig.org/psr/psr-1/) / [PSR-12](https://www.php-fig.org/psr/psr-12/) | Coding style + structure              |
+| [PSR-4](https://www.php-fig.org/psr/psr-1/)                                                 | Autoloading                           |
+| [PSR-3](https://www.php-fig.org/psr/psr-3/)                                                 | Logging                               |
+| [PSR-7](https://www.php-fig.org/psr/psr-7/)                                                 | HTTP messages (request/response)      |
+| [PSR-11](https://www.php-fig.org/psr/psr-11/)                                               | (future) Service container (optional) |
+| [PSR-15](https://www.php-fig.org/psr/psr-15/)                                               | Middleware interfaces                 |
+| [PSR-17](https://www.php-fig.org/psr/psr-17/)                                               | HTTP factories                        |
 
 ---
 

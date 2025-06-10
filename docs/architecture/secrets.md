@@ -47,7 +47,7 @@ Examples of secrets include:
 
 - Secrets stored in managed secret systems:
   - **AWS SSM Parameter Store**
-  - **HashiCorp Vault**
+  - **Hashicorp Vault**
   - **Doppler**, **1Password Secrets Automation**, etc.
 - Pulled into runtime using:
   - Deployment pipeline injectors (CI/CD)

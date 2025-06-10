@@ -1,8 +1,3 @@
-Here is a complete `docs/architecture/environments.md` document, defining the roles, structure, and lifecycle of the various Bluewater deployment environments:
-
----
-
-```markdown
 ### 📘 `docs/architecture/environments.md` — Environment Strategy
 
 # 🌐 Environment Architecture – Bluewater Framework
@@ -30,12 +25,12 @@ This document outlines how Bluewater environments are structured, what each is r
 
 ## 🧭 Environment Matrix
 
-| Environment | Purpose                 | Branch Source | Access          | Data & Config       |
-|-------------|--------------------------|---------------|------------------|---------------------|
-| **Local**   | Dev sandbox              | Any           | Developer only   | Local mock or `.env`|
-| **UAT**     | Internal QA/test         | Feature/test  | Internal team    | Partial seed        |
-| **Staging** | Pre-prod validation      | `main`        | Authenticated    | Full replica        |
-| **Production** | Live customer-facing | `main`        | Restricted       | Hardened, secure    |
+| Environment    | Purpose              | Branch Source | Access         | Data & Config        |
+|----------------|----------------------|---------------|----------------|----------------------|
+| **Local**      | Dev sandbox          | Any           | Developer only | Local mock or `.env` |
+| **UAT**        | Internal QA/test     | Feature/test  | Internal team  | Partial seed         |
+| **Staging**    | Pre-prod validation  | `main`        | Authenticated  | Full replica         |
+| **Production** | Live customer-facing | `main`        | Restricted     | Hardened, secure     |
 
 ---
 
@@ -96,6 +91,5 @@ All environments expose `/health` and `/metrics` endpoints.
 - [Secrets and Config](./secrets.md)  
 - [Observability](./observability.md)  
 - [Architecture Overview](./overview.md)  
-```
 
 ---

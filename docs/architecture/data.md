@@ -115,7 +115,7 @@ Enable logging for:
 Use changelogs or an event stream (future).
 
 <!-- Diagram: data-audit-architecture -->
-![Data Audit Flow – Placeholder](../assets/diagrams/architecture/data-audit-architecture.png)
+![Data Audit Flow](../assets/diagrams/architecture/data-audit-architecture.png)
 
 ---
 

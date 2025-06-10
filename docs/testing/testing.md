@@ -1,21 +1,30 @@
-### 📄 `docs/testing/testing.md`
+
+### 📘 `docs/testing/testing.md` — Testing Strategy
 
 # 🧪 Testing Strategy – Bluewater Framework
 
 📄 **File:** `docs/testing/testing.md`  
-📅 **Status:** Stub  
+🧮 **Status:** ✍️ Draft  
+🛫 **ETA:** 2025-06-27  
+🔖 **Version:** 0.1  
+📅 **Date:** 2025-06-06  
 🏷️ **Tags:** testing, quality, phpunit, automation  
-🔖 **Version:** 1.0  
-📦 **Scope:** 🧪 Full-Stack Testing Plan  
-👨‍💻 **Maintainer:** QA Lead / Core Contributor
+🌍 **Scope:** Define how testing is designed, structured, and executed across the Bluewater PHP framework—including philosophy, tooling, CI integration, and code coverage targets.  
+👥 **Contributors:** – QA team, developers, and CI maintainers  
+👨‍💻 **Author:** Walter Torres
 
 ---
 
-## 📘 OVERVIEW
+## 📘 Overview
 
 This document provides a top-level overview of **testing philosophy, tooling, and coverage strategy** for the Bluewater PHP framework.  
 
-Testing is central to the framework’s stability, and is enforced via both code-level checks and CI pipelines.
+Testing is fundamental to framework quality and enforced via local dev routines and CI/CD automation.
+
+---
+
+> ### 🪶 **Bluewater Principle**  
+> *Tests must be as predictable, maintainable, and modular as the code they protect.*
 
 ---
 
@@ -30,50 +39,64 @@ Testing is central to the framework’s stability, and is enforced via both code
 
 ---
 
-## 🛠️ Tools Used
+## 🛠️ Testing Tools
 
 - ✅ [PHPUnit](https://phpunit.de/) – primary test runner  
-- ✅ [Mockery](https://github.com/mockery/mockery) – fluent mocks  
-- ✅ [Psalm](https://psalm.dev/) – static analysis (optional)  
-- 🔄 [GitHub Actions](https://docs.github.com/actions) – CI/CD integration (planned)
+- ✅ [Mockery](https://github.com/mockery/mockery) – mock object framework  
+- 🔍 [Psalm](https://psalm.dev/) – optional static analysis  
+- 🔄 [GitHub Actions](https://github.com/features/actions) – CI/CD runner (planned)  
+- 📦 Composer-based test suite orchestration
 
 ---
 
-## 📂 Recommended Test Directory Layout
+## 📂 Directory Layout
 
 ```txt
 /tests/
-├── Unit/
-├── Integration/
-├── Functional/
-├── Helpers/
-└── bootstrap.php
+├── Unit/           # Class-by-class test coverage
+├── Integration/    # Multi-service and I/O validation
+├── Functional/     # Framework-level scenarios
+├── Helpers/        # Custom test utilities
+└── bootstrap.php   # Environment prep
 ````
 
 ---
 
-## 🎯 Coverage Goals
+## 🎯 Test Coverage Goals
 
-| Layer          | Target Coverage   |
-|----------------|-------------------|
-| Framework Core | 95–100%           |
-| CLI Commands   | 90%+              |
-| Middleware     | 100% (edge logic) |
-| Router         | 100% route map    |
-| Sample App     | ≥80% minimum      |
+| Target Layer   | Coverage Expectation |
+| -------------- | -------------------- |
+| Framework Core | 95–100%              |
+| CLI Commands   | ≥90%                 |
+| Middleware     | 100% for critical    |
+| Router Layer   | 100% (all map paths) |
+| Sample Tenant  | ≥80% recommended     |
 
 ---
 
-## 📎 Related Files
+## 🧬 Best Practices
 
-* [`unit-testing.md`](./unit-testing.md)
-* [`mocking.md`](./mocking.md)
-* [`integration-testing.md`](./integration-testing.md)
+* Group tests by layer and feature.
+* Keep mocks lean and reflective of real contracts.
+* Favor expressive test names: `testShouldRejectEmptyToken()` > `testInvalid()`.
+* Ensure test isolation—no shared state between cases.
+
+---
+
+## 🔁 CI & Git Hooks (Planned)
+
+* Add pre-commit hooks for running basic unit test sets.
+* Deploy GitHub Actions for push-based test gates.
+* Validate coverage thresholds as part of the pipeline.
+
+---
+
+## 📎 Related References
+
+* [`unit-testing.md`](./unit-testing.md) – Deeper dive into core logic testing
+* [`mocking.md`](./mocking.md) – Approaches for test isolation
+* [`integration-testing.md`](./integration-testing.md) – Sample contracts
+* [PHPUnit Manual](https://phpunit.readthedocs.io/)
 * [PSR-12 Coding Style](https://www.php-fig.org/psr/psr-12/)
-* [PHPUnit Docs](https://phpunit.readthedocs.io/)
-
----
-
-📎 *Test like you’re the last developer who’ll ever touch this repo.*
 
 ---

@@ -32,7 +32,7 @@ This document outlines the performance posture of Bluewater services—targeting
 | DB Query (avg)    | ≤ 100ms                |
 | Cold Boot Time    | ≤ 3 seconds            |
 | Message Queue Lag | ≤ 500ms                |
-| Healthcheck TTL   | < 1 second (readiness) |
+| Health-check TTL  | < 1 second (readiness) |
 
 Targets may vary slightly per service class (core, edge, batch).
 

@@ -17,57 +17,57 @@ This file provides the landing page for the Bluewater Docs site. It links major 
 
 ## 🧱 Core Architecture
 
-| Title                    | Link                                                   | Description                                |
-|--------------------------|--------------------------------------------------------|--------------------------------------------|
-| Architecture Overview    | [architecture.md](../architecture/architecture.md)     | High-level framework design and principles |
-| Technical Specifications | [specifications.md](../architecture/specifications.md) | Technical standards and system rules       |
-| Directory Structure      | [structure.md](../architecture/structure.md)           | Project file layout and autoloading map    |
-| Multi-Tenant Guide       | [multi-tenant.md](../architecture/multi-tenant)        | Client isolation and directory strategy    |
-| Middleware Lifecycle     | [middleware.md](../core/middleware.md)                 | Request lifecycle via PSR-15 middleware    |
+| Title                                                        | Description                                |
+|--------------------------------------------------------------|--------------------------------------------|
+| [Architecture Overview](../architecture/system-overview.md)  | High-level framework design and principles |
+| [Technical Specification](../architecture/specifications.md) | Technical standards and system rules       |
+| [Directory Structure](../architecture/structure.md)          | Project file layout and autoloading map    |
+| [Multi-Tenant Guide](../architecture/multi-tenant)           | Client isolation and directory strategy    |
+| [Middleware Lifecycle](../core/middleware.md)                | Request lifecycle via PSR-15 middleware    |
 
 ---
 
 ## 🔐 Authentication & API Design
 
-| Title                 | Link                                           | Description                                |
-|-----------------------|------------------------------------------------|--------------------------------------------|
-| Auth Modules          | [auth-modules.md](../security/auth-modules.md) | JWT/OAuth support and plug-in architecture |
-| OpenAPI Specification | [openapi.md](../api/openapi.md)                | CLI-powered OpenAPI spec generation        |
+| Title                                       | Description                                |
+|---------------------------------------------|--------------------------------------------|
+| [Auth Modules](../security/auth-modules.md) | JWT/OAuth support and plug-in architecture |
+| [OpenAPI Specification](../api/openapi.md)  | CLI-powered OpenAPI spec generation        |
 
 ---
 
 ## 🛠️ Tooling & CLI
 
-| Title                 | Link                                    | Description                         |
-|-----------------------|-----------------------------------------|-------------------------------------|
-| CLI Tooling Reference | [cli-tooling.md](../cli/cli-tooling.md) | All CLI commands and usage patterns |
+| Title                                          | Description                         |
+|------------------------------------------------|-------------------------------------|
+| [CLI Tooling Reference](../cli/cli-tooling.md) | All CLI commands and usage patterns |
 
 ---
 
 ## 🚀 Operations
 
-| Title                      | Link                                         | Description                              |
-|----------------------------|----------------------------------------------|------------------------------------------|
-| Deployment Guide           | [deployment.md](../deployment/deployment-guide.md) | NGINX/Apache setup, environment, caching |
-| Release & Tagging Strategy | [release.md](../architecture/release.md)     | Composer packaging and versioning flow   |
+| Title                                                    | Description                              |
+|----------------------------------------------------------|------------------------------------------|
+| [Deployment Guide](../deployment/deployment-guide.md)    | NGINX/Apache setup, environment, caching |
+| [Release & Tagging Strategy](../architecture/release.md) | Composer packaging and versioning flow   |
 
 ---
 
 ## 🧪 Testing & QA
 
-| Title            | Link                                | Description                               |
-|------------------|-------------------------------------|-------------------------------------------|
-| Testing Strategy | [testing.md](../testing/testing.md) | Unit tests, static analysis, QA checklist |
+| Title                                     | Description                               |
+|-------------------------------------------|-------------------------------------------|
+| [Testing Strategy](../testing/testing.md) | Unit tests, static analysis, QA checklist |
 
 ---
 
 ## 📄 Contributor Docs
 
-| Title                 | Link                                     | Description                                 |
-|-----------------------|------------------------------------------|---------------------------------------------|
-| Contributing Guide    | [CONTRIBUTING.md](../../CONTRIBUTING.md) | How to contribute, style rules, test policy |
-| Project Roadmap       | [roadmap.md](../architecture/roadmap.md) | Timeline and progress of each phase         |
-| FAQ & Troubleshooting | [faq.md](faq.md)                         | Common issues and dev resolutions           |
+| Title                                         | Description                                 |
+|-----------------------------------------------|---------------------------------------------|
+| [Contributing Guide](../../CONTRIBUTING.md)   | How to contribute, style rules, test policy |
+| [Project Roadmap](../architecture/roadmap.md) | Timeline and progress of each phase         |
+| [FAQ & Troubleshooting](faq.md)               | Common issues and dev resolutions           |
 
 ---
 
