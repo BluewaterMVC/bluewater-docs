@@ -1,13 +1,13 @@
 ### 📄 `/docs/index.md`
 
-📅 **Last Updated:** 2025-06-02
+📅 **Last Updated:** {{DATE}}
 🔖 **Version:** 1.0
 📦 **Scope:** 📚 Global Documentation Index for Bluewater
 🏷️ **Tags:** index, toc, navigation, structure
 
 ---
 
-# 📚 Bluewater Framework — Documentation Index
+# 🌊 Bluewater Framework — Architecture Documentation Index
 
 Welcome to the **official Bluewater Docs Hub**.
 This index links to all internal framework documentation grouped by domain and feature. Use this to navigate across architecture, APIs, security, integration, and contributor guides.
@@ -16,7 +16,7 @@ This index links to all internal framework documentation grouped by domain and f
 
 ## 🧠 Architecture & Design
 
-* [`architecture.md`](./architecture/architecture.md) – Design principles and layout
+* [`architecture.md`](./architecture/system-overview.md) – Design principles and layout
 * [`multi-tenant.md`](architecture/multi-tenant.md) – Per-client directory strategy
 * [`structure.md`](architecture/structure.md) – File layout and modular boundaries
 * [`specifications.md`](architecture/specifications.md) – Feature and technical specs

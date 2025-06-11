@@ -6,7 +6,7 @@
 🧮 **Status:** ✍️ Draft  
 🛫 **ETA:** 2025-06-27  
 🔖 **Version:** 0.1  
-📅 **Date:** 2025-06-06  
+📅 **Date:** {{DATE}}  
 🏷️ **Tags:** api, openapi, specification  
 🌍 **Scope:** Define how to document and expose tenant-specific APIs using OpenAPI v3.  
 👥 **Contributors:** – API designers, client integrators, QA engineers  

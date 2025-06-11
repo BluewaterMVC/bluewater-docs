@@ -1,8 +1,8 @@
-# Bluewater Platform Documentation
+# 🌊 Bluewater Platform Documentation
 
 ![Framework](https://img.shields.io/badge/framework-Bluewater-lightblue?logo=dropbox&logoColor=white)
 ![Status](https://img.shields.io/badge/status-active-blue)
-![Version](https://img.shields.io/badge/version-1.0-blue?logo=semantic-release&logoColor=white)
+![Version](https://img.shields.io/badge/version-0.1-blue?logo=semantic-release&logoColor=white)
 
 ![Language](https://img.shields.io/badge/language-PHP%208.2+-blue?logo=php&logoColor=white)
 ![OpenAPI](https://img.shields.io/badge/API-OpenAPI_3-green?logo=openapiinitiative&logoColor=white)
@@ -22,7 +22,7 @@
 ![Docker](https://img.shields.io/badge/Container-Docker-blue?logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Orchestration-Kubernetes-blue?logo=kubernetes&logoColor=white)
 
-**Version:** 1.0 
+**Version:** 1.0  
 **License:** [MIT](./LICENSE)  
 **Language:** PHP 8.2+  
 **Type:** Lightweight Backend-Only REST API Framework
@@ -35,20 +35,32 @@ This repository contains both the **platform documentation** and the **developer
 
 ---
 
+### 📁 Documentation Types
+
+This project maintains two main types of documentation:
+
+- **📐 Architecture Documentation** — High-level system design, components, and technical rationale.  
+  Located at [`docs/architecture/`](./docs/architecture/)
+
+- **🛠 Technical Documentation** — Setup guides, development standards, testing, deployment, and usage instructions.  
+  Located throughout [`docs/`](./docs/), organized by function and module.
+
+---
+
 ## 🧠 Philosophy
 
-> *"A good framework gets out of your way. A great one lets you see how it works."*
+> *"A good framework gets out of your way. A great one lets you see how it works."*  
 > — Bluewater Principle
 
 ---
 
 ## 📌 What Is Bluewater?
 
-**Bluewater** is a high-performance, lightweight PHP-based microservices framework optimized for high-availability  modern REST API workloads. It’s designed for developers who want **full control**, **zero bloat**, and **sub-10ms response times**.
+**Bluewater** is a high-performance, lightweight PHP-based microservices framework optimized for high-availability modern REST API workloads. It’s designed for developers who want **full control**, **zero bloat**, and **sub-10ms response times**.
 
 Designed for modularity and scalability, it enables teams to rapidly develop REST APIs across multi-tenant environments with built-in observability and secure defaults.
 
-No templating engines. No service containers. No magic. Just fast, modular PHP built around [PSR standards](https://www.php-fig.org/psr/).
+No templating engines. No service containers. No magic. Just fast, modular PHP built around [PSR standards](https://www.php-fig.org/psr/).  
 It provides:
 
 - A scalable Kubernetes-based deployment model (optional)
@@ -106,7 +118,7 @@ bluewater-project/
 ## 🔧 Core Modules
 
 | Module            | Description                                                |
-|-------------------|------------------------------------------------------------|
+| ----------------- | ---------------------------------------------------------- |
 | **Router**        | Fast HTTP route matching with versioning support           |
 | **Responder**     | Unified JSON output builder                                |
 | **Dispatcher**    | PSR-15 compatible middleware stack executor                |
@@ -121,7 +133,7 @@ bluewater-project/
 ## 🧩 Modular Extensions
 
 | Feature    | Extendable By                       |
-|------------|-------------------------------------|
+| ---------- | ----------------------------------- |
 | Router     | PSR-4 + Composer                    |
 | Middleware | PSR-15 custom classes               |
 | Auth       | Config-defined JWT/OAuth modules    |
@@ -133,7 +145,7 @@ bluewater-project/
 ## 🌐 External Integrations
 
 | Area         | Supported Tools                |
-|--------------|--------------------------------|
+| ------------ | ------------------------------ |
 | ORM          | Eloquent, Doctrine, raw PDO    |
 | Caching      | Redis, Memcached               |
 | Monitoring   | Sentry, NewRelic, etc.         |
@@ -159,7 +171,7 @@ See: [`Security/`](docs/security/README.md)
 ## 🧪 Testing & CI
 
 | Layer      | Strategy                    |
-|------------|-----------------------------|
+| ---------- | --------------------------- |
 | Unit Tests | PHPUnit + isolated services |
 | Mocks      | PSR-3, PSR-11 compatible    |
 | CI/CD      | GitHub Actions planned      |
@@ -185,12 +197,12 @@ More at: [`CLI Tooling`](docs/cli/cli-tooling.md)
 ## 📅 Project Roadmap
 
 | Phase                                               | Status                                                                              | Start Date | ETA        |
-|-----------------------------------------------------|-------------------------------------------------------------------------------------|------------|------------|
+| --------------------------------------------------- | ----------------------------------------------------------------------------------- | ---------- | ---------- |
 | [Architecture](docs/architecture/README.md)         | ![In Progress](https://img.shields.io/badge/in%20progress-yellow?style=flat-square) | 2024-12-01 | 2025-01-05 |
 | [CLI Tooling](docs/cli/)                            | ![In Progress](https://img.shields.io/badge/in%20progress-yellow?style=flat-square) | 2025-01-06 | 2025-01-10 |
 | [Core Modules](docs/core/README.md)                 | ![In Progress](https://img.shields.io/badge/draft-teal?style=flat-square)           | 2025-01-10 | TBD        |
 | [Multi-Tenant Support](docs/architecture/README.md) | ![In Progress](https://img.shields.io/badge/draft-teal?style=flat-square)           | 2025-01-15 | TBD        |
-| [OpenAPI Integration](docs/api/README.md)           | ![In Progress](https://img.shields.io/badge/draft-teal?style=flat-square)           | TBD        | 2025-01-16 | TBD        |
+| [OpenAPI Integration](docs/api/README.md)           | ![In Progress](https://img.shields.io/badge/draft-teal?style=flat-square)           | TBD        | 2025-01-16 |
 | [Auth Modules](docs/security/README.md)             | ![In Progress](https://img.shields.io/badge/draft-teal?style=flat-square)           | TBD        | TBD        |
 | [Docs & Guides](docs/guides/README.md)              | ![In Progress](https://img.shields.io/badge/draft-teal?style=flat-square)           | TBD        | TBD        |
 | [Deployment Strategy](docs/deployment/README.md)    | ![In Progress](https://img.shields.io/badge/draft-teal?style=flat-square)           | TBD        | TBD        |
@@ -202,22 +214,22 @@ More at: [`CLI Tooling`](docs/cli/cli-tooling.md)
 
 ## 🔍 Related Projects
 
-- [`bluewater-framework`](https://github.com/BluewaterMVC/bluewater-framework) – Core source code
-- [`bluewater-docs`](https://github.com/BluewaterMVC/bluewater-docs) – This documentation repo
-
+* [`bluewater-framework`](https://github.com/BluewaterMVC/bluewater-framework) – Core source code
+* [`bluewater-docs`](https://github.com/BluewaterMVC/bluewater-docs) – This documentation repo
 
 ---
+
 ## 📚 Documentation Overview
 
 > **Official documentation site for the Bluewater Framework** — a lightweight, high-performance backend PHP framework designed for building modular, multi-tenant REST APIs.
 
-📚 [Main Index](docs/index.md)  
+📚 [Main Index](docs/index.md)
 🧭 [Table of Contents](docs/meta/_toc.md)
 
 All technical documentation lives in the [`docs/`](./docs/) directory. Explore the major sections below:
 
 | Section                                                | Description                                             |
-|--------------------------------------------------------|---------------------------------------------------------|
+| ------------------------------------------------------ | ------------------------------------------------------- |
 | 📐 [`architecture/`](docs/architecture/)               | System diagrams, design goals, internal specifications  |
 | 🧱 [`core/`](docs/core/)                               | Core modules, service boundaries, framework internals   |
 | 🛡 [`security/`](docs/security/)                       | Auth models, RBAC, token handling, and secure practices |
@@ -231,15 +243,16 @@ All technical documentation lives in the [`docs/`](./docs/) directory. Explore t
 | 🚧 [`roadmap/`](docs/roadmap/)                         | Release planning, active initiatives, and How-Tos       |
 
 > 📎 Tip: Browse these documents top-down for onboarding, or jump into a section based on your role or task. Most pages include deep links to related content.
+
 ---
 
 ## 🚀 Getting Started
 
 🔰 Whether you're evaluating Bluewater or setting up your first service, these documents will get you started quickly:
 
-- 📘 [System Overview](docs/architecture/system-overview.md)
-- 📦 [Deployment Guide](docs/deployment/deployment-guide.md)
-- 🧰 [Local Dev Setup](docs/development/local-dev-setup.md)
+* 📘 [System Overview](docs/architecture/system-overview.md)
+* 📦 [Deployment Guide](docs/deployment/deployment-guide.md)
+* 🧰 [Local Dev Setup](docs/development/local-dev-setup.md)
 
 Each document provides further links to deep-dive material.
 
@@ -251,13 +264,14 @@ Each document provides further links to deep-dive material.
 
 Contributions are welcome! Please submit issues, pull requests, or ideas via GitHub. Before contributing, please review:
 
-- 🔗 [Contribution Guide](./CONTRIBUTING.md)
+* 🔗 [Contribution Guide](./CONTRIBUTING.md)
 
 ### 🧹 Development Standards
 
 * 🔗 [Contribution Guide](./CONTRIBUTING.md)
 * 🧹 Follow [PSR-12](https://www.php-fig.org/psr/psr-12/)
 * 📄 Use [PHPDoc](https://docs.phpdoc.org/) on all methods/classes
+
 ---
 
 ## 📄 License
@@ -270,11 +284,10 @@ For help navigating this repo, contact the maintainer team or open an issue.
 
 ---
 
-*⚡ Built for speed.  
-🌊 Powered by simplicity.  
+*⚡ Built for speed.
+🌊 Powered by simplicity.
 👾 Backed by White Hats.*
-
 
 ---
 
-_Last updated: 2025-06-05_
+*Last updated: 2025-06-11*
