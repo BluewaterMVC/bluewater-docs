@@ -75,9 +75,9 @@ class ConfigTest extends TestCase {
 
 ## 📎 Related Docs
 
-* [`mocking.md`](./mocking.md)
-* [`integration-testing.md`](./integration-testing.md)
-* [`testing.md`](./testing.md)
+* [`mocking.md`](mocking.md)
+* [`integration-testing.md`](integration-testing.md)
+* [`testing.md`](testing.md)
 
 ---
 

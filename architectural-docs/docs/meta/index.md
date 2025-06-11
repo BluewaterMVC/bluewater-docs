@@ -65,7 +65,7 @@ This file provides the landing page for the Bluewater Docs site. It links major 
 
 | Title                                         | Description                                 |
 |-----------------------------------------------|---------------------------------------------|
-| [Contributing Guide](../../CONTRIBUTING.md)   | How to contribute, style rules, test policy |
+| [Contributing Guide](../../../CONTRIBUTING.md)   | How to contribute, style rules, test policy |
 | [Project Roadmap](../architecture/roadmap.md) | Timeline and progress of each phase         |
 | [FAQ & Troubleshooting](faq.md)               | Common issues and dev resolutions           |
 

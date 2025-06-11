@@ -32,7 +32,7 @@ Bluewater follows **[Semantic Versioning](https://semver.org)**:
 | Step | Task                                        | Notes                                |
 |------|---------------------------------------------|--------------------------------------|
 | 1    | Backup your project & config                | Always before a major upgrade        |
-| 2    | Review [`CHANGELOG.md`](../../CHANGELOG.md) | Check for breaking changes           |
+| 2    | Review [`CHANGELOG.md`](../../../CHANGELOG.md) | Check for breaking changes           |
 | 3    | Update `composer.json` version              | Use `^1.1` or specific semver target |
 | 4    | Run `composer update`                       | Use `--with-dependencies` if needed  |
 | 5    | Run CLI tests                               | `bin/bluewater route:list` etc.      |
@@ -68,7 +68,7 @@ You **should not modify** `vendor` code directly — extend via your app.
 
 ## 🔗 Resources
 
-- [`CONTRIBUTING.md`](../../CONTRIBUTING.md)
+- [`CONTRIBUTING.md`](../../../CONTRIBUTING.md)
 - [`docs/meta/troubleshooting.md`](troubleshooting.md)
 - [`docs/meta/performance.md`](performance.md)
 

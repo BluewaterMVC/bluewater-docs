@@ -82,9 +82,9 @@ $logger = new class implements \Psr\Log\LoggerInterface {
 
 ## 📎 Related Topics
 
-* [`unit-testing.md`](./unit-testing.md)
-* [`integration-testing.md`](./integration-testing.md)
-* [`testing.md`](./testing.md)
+* [`unit-testing.md`](unit-testing.md)
+* [`integration-testing.md`](integration-testing.md)
+* [`testing.md`](testing.md)
 
 ---
 

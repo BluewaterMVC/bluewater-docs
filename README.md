@@ -133,7 +133,7 @@ bluewater-project/
 ## 🌐 External Integrations
 
 | Area         | Supported Tools                |
-| ------------ | ------------------------------ |
+|--------------|--------------------------------|
 | ORM          | Eloquent, Doctrine, raw PDO    |
 | Caching      | Redis, Memcached               |
 | Monitoring   | Sentry, NewRelic, etc.         |
@@ -159,7 +159,7 @@ See: [`Security/`](docs/security/README.md)
 ## 🧪 Testing & CI
 
 | Layer      | Strategy                    |
-| ---------- | --------------------------- |
+|------------|-----------------------------|
 | Unit Tests | PHPUnit + isolated services |
 | Mocks      | PSR-3, PSR-11 compatible    |
 | CI/CD      | GitHub Actions planned      |
@@ -216,19 +216,19 @@ More at: [`CLI Tooling`](docs/cli/cli-tooling.md)
 
 All technical documentation lives in the [`docs/`](./docs/) directory. Explore the major sections below:
 
-| Section                                  | Description                                             |
-|------------------------------------------|---------------------------------------------------------|
-| 📐 [`architecture/`](docs/architecture/) | System diagrams, design goals, internal specifications  |
-| 🧱 [`core/`](docs/core/)                 | Core modules, service boundaries, framework internals   |
-| 🛡 [`security/`](docs/security/)         | Auth models, RBAC, token handling, and secure practices |
-| 🔁 [`Multi-tenant`](docs/architecture/multi-tenant.md)           | Multi-tenant logic, scoping, and data isolation models  |
-| ⚙️ [`cli/`](docs/cli/)                   | CLI tooling, developer scripts, and automation commands |
-| 🌐 [`api/`](docs/api/)                   | OpenAPI/Swagger definitions and service contracts       |
-| 🧪 [`quality/`](docs/quality/)           | Testing standards, coverage strategy, QA environments   |
-| 🧰 [`development/`](docs/development/)   | Local setup, project structure, and contributing docs   |
-| 📦 [`deployment/`](docs/deployment/)     | Kubernetes, Helm, Terraform, container orchestration    |
-| 🔌 [`integrations/`](docs/integrations/) | 3rd-party modules, SDKs, and extension hooks            |
-| 🚧 [`roadmap/`](docs/roadmap/)           | Release planning, active initiatives, and How-Tos       |
+| Section                                                | Description                                             |
+|--------------------------------------------------------|---------------------------------------------------------|
+| 📐 [`architecture/`](docs/architecture/)               | System diagrams, design goals, internal specifications  |
+| 🧱 [`core/`](docs/core/)                               | Core modules, service boundaries, framework internals   |
+| 🛡 [`security/`](docs/security/)                       | Auth models, RBAC, token handling, and secure practices |
+| 🔁 [`Multi-tenant`](docs/architecture/multi-tenant.md) | Multi-tenant logic, scoping, and data isolation models  |
+| ⚙️ [`cli/`](docs/cli/)                                 | CLI tooling, developer scripts, and automation commands |
+| 🌐 [`api/`](docs/api/)                                 | OpenAPI/Swagger definitions and service contracts       |
+| 🧪 [`quality/`](docs/quality/)                         | Testing standards, coverage strategy, QA environments   |
+| 🧰 [`development/`](docs/development/)                 | Local setup, project structure, and contributing docs   |
+| 📦 [`deployment/`](docs/deployment/)                   | Kubernetes, Helm, Terraform, container orchestration    |
+| 🔌 [`integrations/`](docs/integrations/)               | 3rd-party modules, SDKs, and extension hooks            |
+| 🚧 [`roadmap/`](docs/roadmap/)                         | Release planning, active initiatives, and How-Tos       |
 
 > 📎 Tip: Browse these documents top-down for onboarding, or jump into a section based on your role or task. Most pages include deep links to related content.
 ---

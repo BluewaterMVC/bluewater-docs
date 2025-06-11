@@ -94,6 +94,6 @@ Bluewater middleware empowers precise control over request handling with minimal
 
 ## 🔗 Related Docs
 
-* [Dispatcher](./dispatcher.md)
+* [Dispatcher](dispatcher.md)
 * [Auth Modules](../security/auth-modules.md)
 * [Testing Middleware](../testing/testing.md)

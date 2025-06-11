@@ -93,9 +93,9 @@ Testing is fundamental to framework quality and enforced via local dev routines 
 
 ## 📎 Related References
 
-* [`unit-testing.md`](./unit-testing.md) – Deeper dive into core logic testing
-* [`mocking.md`](./mocking.md) – Approaches for test isolation
-* [`integration-testing.md`](./integration-testing.md) – Sample contracts
+* [`unit-testing.md`](unit-testing.md) – Deeper dive into core logic testing
+* [`mocking.md`](mocking.md) – Approaches for test isolation
+* [`integration-testing.md`](integration-testing.md) – Sample contracts
 * [PHPUnit Manual](https://phpunit.readthedocs.io/)
 * [PSR-12 Coding Style](https://www.php-fig.org/psr/psr-12/)
 

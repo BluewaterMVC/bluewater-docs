@@ -78,8 +78,8 @@ $response->assertStatus(200);
 
 ## 📎 Related Topics
 
-* [`unit-testing.md`](./unit-testing.md)
-* [`mocking.md`](./mocking.md)
+* [`unit-testing.md`](unit-testing.md)
+* [`mocking.md`](mocking.md)
 * [PSR-12 Coding Style](https://www.php-fig.org/psr/psr-12/)
 
 ---

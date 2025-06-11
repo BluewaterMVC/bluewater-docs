@@ -70,8 +70,8 @@ return [
 
 ## 🔗 Related Docs
 
-* [`auth.md`](./auth.md) – For async auth-related flows
-* [`monitoring.md`](./monitoring.md) – Queue metrics & alerts
+* [`auth.md`](auth.md) – For async auth-related flows
+* [`monitoring.md`](monitoring.md) – Queue metrics & alerts
 * [PSR-11](https://www.php-fig.org/psr/psr-11/) (container pattern often used with queues)
 
 ---

@@ -101,11 +101,11 @@ This file defines the **manual Table of Contents** for Bluewater’s documentati
 
 ## 🧠 Meta & Maintenance
 
-- [FAQ](../meta/faq.md)
-- [Troubleshooting](../meta/troubleshooting.md)
-- [Performance](../meta/performance.md)
-- [Extending](../meta/extending.md)
-- [Upgrading](../meta/upgrading.md)
-- [Changelog](../../CHANGELOG.md)
-- [Contributing](../../CONTRIBUTING.md)
-- [License](../meta/license.md)
+- [FAQ](faq.md)
+- [Troubleshooting](troubleshooting.md)
+- [Performance](performance.md)
+- [Extending](extending.md)
+- [Upgrading](upgrading.md)
+- [Changelog](../../../CHANGELOG.md)
+- [Contributing](../../../CONTRIBUTING.md)
+- [License](license.md)

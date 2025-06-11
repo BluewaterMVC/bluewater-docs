@@ -17,7 +17,7 @@ This module defines how to integrate observability into a Bluewater-powered API 
 
 ---
 
-✅ Updated the **"Observability Tools"** table in [`monitoring.md`](../modules/monitoring.md) to include external links for each tool:
+✅ Updated the **"Observability Tools"** table in [`monitoring.md`](monitoring.md) to include external links for each tool:
 
 ---
 
