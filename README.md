@@ -46,44 +46,49 @@ This site provides **all documentation** for the Bluewater PHP framework and pla
 **Bluewater** is an open-source, high-performance, multi-tenant backend framework for building scalable SaaS APIs.  
 All documentation here is open and reusable under the [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/).
 
+> **Documentation Process:**  
+> Bluewater documentation is managed and synchronized across multiple repositories.  
+> For details on where each section originates and how it is kept up to date,  
+> please see our [SYNC_PROCESS.md](./SYNC_PROCESS.md).
+
 ---
 
 ## 📚 Documentation Contents
 
 ### **1. Architecture Documentation**
 > **System design, diagrams, component interactions, and project rationale.**  
-Find these in [`architecture/`](./architecture/).
+Find these in [`architecture/`](./architecture/README.md).
 
-- [System Overview](./architecture/system-overview.md)
-- [Module Breakdown](./architecture/modules.md)
-- [Multi-Tenant Design](./architecture/multi-tenant.md)
-- [Security Principles](./architecture/security.md)
+- [System Overview](./architecture/system-overview.md) ![Coming Soon](https://img.shields.io/badge/-COMING%20SOON-orange)
+- [Module Breakdown](./architecture/modules.md) ![Coming Soon](https://img.shields.io/badge/-COMING%20SOON-orange)
+- [Multi-Tenant Design](./architecture/multi-tenant.md) ![Coming Soon](https://img.shields.io/badge/-COMING%20SOON-orange)
+- [Security Principles](./architecture/security.md) ![Coming Soon](https://img.shields.io/badge/-COMING%20SOON-orange)
 
 ### **2. Technical Documentation**
 > **Getting started, guides, usage patterns, extension points, and troubleshooting.**  
-Find these in [`technical/`](./technical/).
+Find these in [`technical/`](./technical/README.md).
 
-- [Getting Started](./technical/getting-started.md)
-- [Configuration Guide](./technical/configuration.md)
-- [Extension & Integration](./technical/extending.md)
-- [Deployment & Operations](./technical/deployment.md)
-- [FAQ & Troubleshooting](./technical/faq.md)
+- [Getting Started](./technical/getting-started.md) ![Coming Soon](https://img.shields.io/badge/-COMING%20SOON-orange)
+- [Configuration Guide](./technical/configuration.md) ![Coming Soon](https://img.shields.io/badge/-COMING%20SOON-orange)
+- [Extension & Integration](./technical/extending.md) ![Coming Soon](https://img.shields.io/badge/-COMING%20SOON-orange)
+- [Deployment & Operations](./technical/deployment.md) ![Coming Soon](https://img.shields.io/badge/-COMING%20SOON-orange)
+- [FAQ & Troubleshooting](./technical/faq.md) ![Coming Soon](https://img.shields.io/badge/-COMING%20SOON-orange)
 
 ### **3. API Reference (PHPDocs)**
 > **Auto-generated documentation for all public classes, interfaces, and methods.**  
-Hosted in [`phpdoc/`](./phpdoc/) or online at [docs.bluewaterphp.org/phpdoc/](https://docs.bluewaterphp.org/phpdoc/).
+Hosted in [`phpdoc/`](./phpdoc/README.md) or online at [docs.bluewaterphp.org/phpdoc/](https://docs.bluewaterphp.org/phpdoc/).
 
-- [API Docs Home](./phpdoc/index.html)
-- [Class Reference](./phpdoc/classes/index.html)
+- [API Docs Home](./phpdoc/index.html) ![Coming Soon](https://img.shields.io/badge/-COMING%20SOON-orange)
+- [Class Reference](./phpdoc/classes/index.html) ![Coming Soon](https://img.shields.io/badge/-COMING%20SOON-orange)
 
 ---
 
 ## 🧭 Navigation
 
 - **For Bluewater users and app developers:**  
-  Start with [Getting Started](./technical/getting-started.md) and [API Reference](./phpdoc/index.html).
+  Start with [Getting Started](./technical/getting-started.md) ![Coming Soon](https://img.shields.io/badge/-COMING%20SOON-orange) and [API Reference](./phpdoc/index.html) ![Coming Soon](https://img.shields.io/badge/-COMING%20SOON-orange).
 - **For core maintainers and architects:**  
-  See [Architecture Docs](./architecture/).
+  See [Architecture Docs](./architecture/README.md).
 - **Looking for code?**  
   See the [Bluewater Framework repository](https://github.com/BluewaterMVC/bluewater-framework).
 
@@ -97,6 +102,15 @@ Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines and our documenta
 - All edits and suggestions are reviewed via Pull Requests.
 - If you find an issue or unclear section, [open an issue](https://github.com/BluewaterMVC/bluewater-docs/issues).
 - See our [Code of Conduct](./CODE_OF_CONDUCT.md).
+
+---
+
+## 🛡️ Security
+
+If you discover a security vulnerability or sensitive issue,  
+please follow our [Security Policy](./SECURITY.md) for how to report it responsibly.
+
+We appreciate responsible disclosure to help keep Bluewater safe!
 
 ---
 
@@ -124,4 +138,10 @@ Documentation updates are aligned with each framework release and major mileston
 
 ---
 
-*Last updated: 2024-06-14*
+## 📝 License
+
+All content in this repository is licensed under the [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/).
+
+---
+
+*Last updated: {{DATE}}*
