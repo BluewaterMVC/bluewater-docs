@@ -1,0 +1,45 @@
+name: Lint and Check Documentation
+
+on:
+  pull_request:
+    paths:
+      - '**.md'
+      - 'test/**'
+      - '.github/workflows/lint-docs.yml'
+  push:
+    branches: [ main ]
+
+jobs:
+  markdown-lint:
+    name: Lint Markdown (Linux)
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install markdownlint-cli
+        run: npm install -g markdownlint-cli
+
+      - name: Lint all Markdown files
+        run: markdownlint '**/*.md'
+
+      - name: Check documentation metadata (Bash)
+        run: |
+          chmod +x test/check_metadata.sh
+          ./test/check_metadata.sh
+
+  windows-metadata-check:
+    name: Metadata Check (Windows)
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run metadata check (Batch)
+        run: |
+          test\check_metadata.bat

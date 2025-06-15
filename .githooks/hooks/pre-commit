@@ -1,0 +1,35 @@
+#!/bin/bash
+
+# Get today's date and current year
+TODAY=$(date +%F)
+YEAR=$(date +%Y)
+
+# Loop through all staged files
+for file in $(git diff --cached --name-only); do
+
+  # Skip deleted or binary files
+  if [ ! -f "$file" ] || file "$file" | grep -q "binary"; then
+    continue
+  fi
+
+  # 📅 **Date:** {{DATE}} → 📅 **Date:** YYYY-MM-DD
+  sed -i -E "s|([#/]{0,2}[[:space:]]*)📅 \*\*Date:\*\* \{\{DATE\}\}|\\1📅 **Date:** $TODAY|" "$file"
+
+  # Last updated: 2025-06-11 → Last updated: YYYY-MM-DD
+  sed -i -E "s|([#/]{0,2}[[:space:]]*)Last updated: \{\{DATE\}\}|\\1Last updated: $TODAY|" "$file"
+
+  # Copyright (c) 2006 - 2025 → Copyright (c) 2006 - YYYY
+  sed -i -E "s|Copyright \(c\) ([0-9]{4}) - [0-9]{4}|Copyright (c) \1 - $YEAR|" "$file"
+
+  # @copyright (c) 2010 - 2025 → @copyright (c) 2010 - YYYY
+  sed -i -E "s|@copyright \(c\) ([0-9]{4}) - [0-9]{4}|@copyright (c) \1 - $YEAR|" "$file"
+
+  # @modified {{YYYY-MM-DD}} → @modified YYYY-MM-DD
+  sed -i -E "s|@modified \{\{[0-9]{4}-[0-9]{2}-[0-9]{2}\}\}|@modified $TODAY|" "$file"
+
+  # Re-add the file if it was changed
+  if ! git diff --quiet "$file"; then
+    git add "$file"
+  fi
+
+done
