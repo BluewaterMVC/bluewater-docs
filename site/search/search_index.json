@@ -1,0 +1,1 @@
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Welcome to Bluewater Documentation","text":"<p>This documentation site is under active development. Use the navigation menu to explore available sections.</p> <p>Last updated: {{DATE}}</p>"}]}
