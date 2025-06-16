@@ -1,0 +1,48 @@
+name: Gather & Publish Docs
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Clean out previous /docs/ to avoid stale files
+      - name: Clean /docs/ folder
+        run: |
+          rm -rf docs/*
+          mkdir -p docs
+
+      # Gather all docs into /docs/
+      - name: Gather documentation from all sources
+        run: |
+          cp -r architecture docs/architecture
+          cp -r technical docs/technical
+          cp -r phpdoc docs/phpdoc
+
+          # Copy meta files
+          cp CONTRIBUTING.md docs/
+          cp CODE_OF_CONDUCT.md docs/
+          cp SECURITY.md docs/
+
+          # Ensure there's an index.md
+          [ -f docs/index.md ] || echo "# Welcome to Bluewater Docs" > docs/index.md
+
+      # Set up Python and MkDocs
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install mkdocs mkdocs-material
+
+      # Build and deploy to GitHub Pages (gh-pages branch)
+      - name: Build and deploy
+        run: mkdocs gh-deploy --force

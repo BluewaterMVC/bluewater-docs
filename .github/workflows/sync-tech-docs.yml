@@ -1,0 +1,36 @@
+name: Sync Technical Docs to bluewater-docs
+
+on:
+  push:
+    paths:
+      - 'technical/**'
+
+jobs:
+  sync-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source repo (bluewater-framework)
+        uses: actions/checkout@v4
+
+      - name: Copy technical docs to bluewater-docs
+        uses: actions/checkout@v4
+        with:
+          repository: BluewaterMVC/bluewater-docs
+          token: ${{ secrets.DOCS_PUSH_TOKEN }}
+          path: bluewater-docs
+
+      - name: Sync files
+        run: |
+          rsync -av technical/ bluewater-docs/docs/technical/
+
+      - name: Commit and push changes to bluewater-docs
+        run: |
+          cd bluewater-docs
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add docs/technical/
+          git commit -m "Sync technical docs from bluewater-framework"
+          git push
+        env:
+          GIT_AUTHOR_NAME: github-actions
+          GIT_AUTHOR_EMAIL: actions@github.com
