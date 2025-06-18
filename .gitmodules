@@ -1,0 +1,3 @@
+[submodule ".shared-scripts"]
+	path = .shared-scripts
+	url = https://github.com/bluewatermvc/bluewater-scripts.git

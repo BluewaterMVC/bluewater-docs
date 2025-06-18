@@ -1,0 +1,11 @@
+# .github/workflows/ci.yml
+name: Framework CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  shared:
+    uses: BluewaterMVC/bluewater-scripts/.github/workflows/shared-ci.yml@main

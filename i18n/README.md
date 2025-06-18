@@ -1,9 +1,4 @@
 
----
-
-## **i18n/README.md**
-
-```markdown
 # Bluewater Documentation Translations (`i18n/`)
 
 This directory organizes and publishes translations of Bluewater documentation into multiple languages.
