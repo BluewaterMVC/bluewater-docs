@@ -1,0 +1,1013 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://<your-username>.github.io/<your-repo-name>/CONTRIBUTING/">
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Contributing to Bluewater Framework - Bluewater Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#contributing-to-bluewater-framework" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Bluewater Documentation" class="md-header__button md-logo" aria-label="Bluewater Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Bluewater Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Contributing to Bluewater Framework
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Bluewater Documentation" class="md-nav__button md-logo" aria-label="Bluewater Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Bluewater Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Architecture
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Architecture
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../architecture/system-overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    System Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../architecture/modules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Module Breakdown
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../architecture/multi-tenant/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Multi-Tenant Design
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../architecture/security/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Security Principles
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Technical
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Technical
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../technical/getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../technical/configuration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Configuration Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../technical/extending/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Extension & Integration
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../technical/deployment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Deployment & Operations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../technical/faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FAQ & Troubleshooting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    API Reference
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            API Reference
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phpdoc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    API Docs Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phpdoc/classes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Class Reference
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CONTRIBUTING.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CODE_OF_CONDUCT.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Code of Conduct
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SECURITY.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Security Policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#quick-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      📚 Quick Links
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚀 Getting Started
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#git-hooks-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      🛠️ Git Hooks Setup
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technical-documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      📝 Technical Documentation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#markdown-linting" class="md-nav__link">
+    <span class="md-ellipsis">
+      🖋️ Markdown Linting
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-contributions" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✏️ Code Contributions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#translating-documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      🌐 Translating Documentation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pull-request-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      🤝 Pull Request Process
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#branching-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔀 Branching &amp; Workflow
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-of-conduct-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      🛡️ Code of Conduct &amp; Security
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#doc-dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      📝 Doc Dependencies
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#thank-you" class="md-nav__link">
+    <span class="md-ellipsis">
+      🙌 Thank You
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="contributing-to-bluewater-framework">Contributing to Bluewater Framework</h1>
+<p>Thank you for considering a contribution to the Bluewater Framework!
+We welcome code, documentation, and suggestions.</p>
+<hr />
+<h2 id="quick-links">📚 Quick Links</h2>
+<ul>
+<li><a href="https://BluewaterMVC.github.io/bluewater-docs/">Official Documentation Site</a></li>
+<li><a href="https://github.com/BluewaterMVC/bluewater-docs/blob/main/SYNC_PROCESS.md">Doc Sync Process</a></li>
+<li><a href="https://github.com/BluewaterMVC/bluewater-docs/blob/main/CODE_OF_CONDUCT.md">Code of Conduct</a></li>
+<li><a href="https://github.com/BluewaterMVC/bluewater-docs/blob/main/SECURITY.md">Security Policy</a></li>
+</ul>
+<hr />
+<h2 id="getting-started">🚀 Getting Started</h2>
+<ol>
+<li>
+<p><strong>Fork and clone this repository.</strong></p>
+</li>
+<li>
+<p><strong>Install PHP dependencies:</strong></p>
+</li>
+</ol>
+<p><code>bash
+   composer install</code></p>
+<ol>
+<li>
+<p><strong>(Optional) Set up for local technical docs preview:</strong></p>
+</li>
+<li>
+<p>Ensure you have Python 3.x and <code>pip</code> installed.</p>
+</li>
+<li>
+<p>Install MkDocs dependencies:</p>
+<p><code>bash
+ pip install -r requirements.txt</code>
+   * Or, for Windows users, run:</p>
+<p><code>preview-docs.bat</code>
+   * Alternatively:</p>
+<p><code>bash
+ mkdocs serve</code>
+   * This will serve the technical docs in <code>/technical/</code> at <a href="http://localhost:8000/">http://localhost:8000/</a>.</p>
+</li>
+</ol>
+<hr />
+<h2 id="git-hooks-setup">🛠️ Git Hooks Setup</h2>
+<p>To ensure code and documentation quality, Bluewater Framework uses <strong>pre-commit hooks</strong> for formatting, metadata insertion, and doc linting, including Markdown linting.</p>
+<p><strong>How to set up Git hooks:</strong></p>
+<ul>
+<li><strong>Linux/macOS:</strong></li>
+</ul>
+<p><code>bash
+  .githooks/setup-hooks.sh</code>
+* <strong>Windows:</strong></p>
+<p><code>.githooks\setup-hooks.bat</code></p>
+<p><strong>What this does:</strong></p>
+<ul>
+<li>Installs and updates all Git hooks (including robust pre-commit checks).</li>
+<li>Ensures “Last Modified” tokens are up to date.</li>
+<li>Blocks commits with missing doc metadata or structure problems.</li>
+<li>Enforces documentation linting, including markdownlint compliance, across all major platforms.</li>
+</ul>
+<p>If you update or add new hooks to <code>.githooks/</code>, re-run the above command/script.</p>
+<p><em>For details on the pre-commit policy and hooks, see <a href=".githooks/README.md">.githooks/README.md</a> or the top of each script file.</em></p>
+<hr />
+<h2 id="technical-documentation">📝 Technical Documentation</h2>
+<ul>
+<li><strong>All technical documentation</strong> for the framework lives in the <code>/technical/</code> directory.</li>
+<li>Preview, edit, and improve docs locally—see above for setup.</li>
+<li><strong>Do not edit <code>/docs/</code> directly.</strong>
+  It is auto-generated in the publication process (<a href="https://github.com/BluewaterMVC/bluewater-docs/blob/main/SYNC_PROCESS.md">SYNC_PROCESS.md</a>).</li>
+</ul>
+<hr />
+<h2 id="markdown-linting">🖋️ Markdown Linting</h2>
+<p>All Markdown documentation (<strong>including all files in <code>/technical/</code> and translations</strong>) must comply with our linting standards defined in <code>.markdownlint.json</code> at the repository root.</p>
+<p><strong>Before submitting any documentation pull request:</strong></p>
+<ul>
+<li>Run markdownlint locally to check for formatting issues:</li>
+</ul>
+<p><code>bash
+  npx markdownlint .</code>
+* Fix any issues before submitting, or explain necessary exceptions in your PR description.
+* All documentation-related PRs will be checked for markdownlint compliance during review and CI.
+* Pre-commit hooks will block commits that fail linting checks.</p>
+<p>For more information on style rules, consult the <code>.markdownlint.json</code> file or contact the documentation maintainers.</p>
+<hr />
+<h2 id="code-contributions">✏️ Code Contributions</h2>
+<ul>
+<li>Follow <a href="https://www.php-fig.org/psr/psr-12/">PSR-12</a> coding standards.</li>
+<li>Use strict types:</li>
+</ul>
+<p><code>php
+  declare(strict_types=1);</code>
+* Document your code with PHPDoc, following the Bluewater PHPDoc standards.</p>
+<hr />
+<h2 id="translating-documentation">🌐 Translating Documentation</h2>
+<ul>
+<li>All new docs should be created in <code>/en/</code> (English) first.</li>
+<li>To add a translation, create a mirror file in the appropriate <code>/es/</code>, <code>/fr/</code>, etc. subfolder.</li>
+<li>Use the <a href=".github/ISSUE_TEMPLATE/translation_request.md">Translation Request template</a> for new or updated translations.</li>
+<li>Ensure the folder/file structure matches the English original.</li>
+<li>All translation PRs are reviewed for accuracy before merge.</li>
+<li>See <a href="docs/en/contribute/i18n.md">i18n Contribution Guide</a> for tips and standards.</li>
+</ul>
+<hr />
+<h2 id="pull-request-process">🤝 Pull Request Process</h2>
+<ol>
+<li>Branch from <code>main</code>.</li>
+<li>Write clear commit messages and PR descriptions.</li>
+<li>Include tests for new features or bugfixes.</li>
+<li>Update or add technical docs in <code>/technical/</code> as needed.</li>
+<li>Ensure documentation passes markdownlint checks.</li>
+<li>Submit your pull request to <code>main</code>.</li>
+</ol>
+<p>All PRs are subject to code review.</p>
+<p>For details on how the Bluewater project is managed—including roles, decision-making, issue triage, and release process—see our <a href="./GOVERNANCE.md">GOVERNANCE.md</a>.</p>
+<hr />
+<h2 id="branching-workflow">🔀 Branching &amp; Workflow</h2>
+<p>All contributions should follow the official branching process described in <a href="./WORKFLOW.md">WORKFLOW.md</a>:</p>
+<ul>
+<li><strong>Branch from <code>main</code></strong> for features, fixes, documentation, or refactoring.</li>
+<li><strong>Use descriptive branch names</strong> (e.g., <code>feature/api-auth</code>, <code>bugfix/router</code>, <code>docs/quickstart-update</code>).</li>
+<li><strong>Push your branch</strong> and open a Pull Request (PR) to <code>main</code>.</li>
+<li><strong>Choose the appropriate PR template</strong> for your change (feature, bugfix, docs, etc.).</li>
+<li>All PRs are reviewed and must pass automated checks before merging.</li>
+<li>The <code>main</code> branch is always stable and deployable.</li>
+</ul>
+<p>For the full, step-by-step workflow (with examples), see <a href="./WORKFLOW.md">WORKFLOW.md</a>.</p>
+<hr />
+<h2 id="code-of-conduct-security">🛡️ Code of Conduct &amp; Security</h2>
+<ul>
+<li>Please review our <a href="https://github.com/BluewaterMVC/bluewater-docs/blob/main/CODE_OF_CONDUCT.md">Code of Conduct</a>.</li>
+<li>To report a security vulnerability, please follow our <a href="https://github.com/BluewaterMVC/bluewater-docs/blob/main/SECURITY.md">Security Policy</a>.</li>
+</ul>
+<hr />
+<h2 id="doc-dependencies">📝 Doc Dependencies</h2>
+<ul>
+<li>All required Python packages for local documentation preview are listed in <a href="./requirements.txt"><code>requirements.txt</code></a>.</li>
+<li>If you add new MkDocs plugins, please update <code>requirements.txt</code> accordingly.</li>
+</ul>
+<hr />
+<h2 id="thank-you">🙌 Thank You</h2>
+<p>Your contributions make Bluewater Framework better for everyone.</p>
+<hr />
+<p><em>Last updated: {{DATE}}</em></p>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
