@@ -1,12 +1,22 @@
+# 🌊 Bluewater Architectural Documentation
+
+**A modern, robust, and scalable platform for application architecture, documentation, and development.**  
+Bluewater empowers teams to build and document high-quality PHP applications with multi-language support, strict standards, and powerful automation.
+
+---
+
+## Vision
+
+Bluewater’s mission is to set a new standard in collaborative, maintainable, and multi-language PHP development.  
+We provide a transparent, process-driven foundation for both architecture and implementation—so projects stay healthy, accessible, and future-proof from day one.
+
+---
 ![Framework](https://img.shields.io/badge/framework-Bluewater-lightblue?logo=dropbox&logoColor=white)
 ![Status](https://img.shields.io/badge/status-active-blue)
 ![Version](https://img.shields.io/badge/version-1.0-blue?logo=semantic-release&logoColor=white)
 
 ![Language](https://img.shields.io/badge/language-PHP%208.2+-blue?logo=php&logoColor=white)
 ![OpenAPI](https://img.shields.io/badge/API-OpenAPI_3-green?logo=openapiinitiative&logoColor=white)
-
-![License](https://img.shields.io/badge/license-CC--BY--4.0-blue?logo=open-source-initiative&logoColor=white)
-![Docs](https://img.shields.io/badge/docs-Available-brightgreen?logo=readthedocs&logoColor=white)
 
 ![Multi-Tenant](https://img.shields.io/badge/multi--tenant-enabled-blue?logo=archlinux&logoColor=white)
 ![Security](https://img.shields.io/badge/security-Middleware--Driven-important?logo=auth0&logoColor=white)
@@ -20,7 +30,27 @@
 ![Docker](https://img.shields.io/badge/Container-Docker-blue?logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Orchestration-Kubernetes-blue?logo=kubernetes&logoColor=white)
 
-[![View Documentation](https://img.shields.io/badge/docs-online-blue?logo=readthedocs)](https://<your-username>.github.io/<your-repo-name>/)
+![Docs Available](https://img.shields.io/badge/docs-Available-brightgreen?logo=readthedocs&logoColor=white)
+![License](https://img.shields.io/badge/license-CC--BY--4.0-blue?logo=open-source-initiative&logoColor=white)
+![Multi-Lingual](https://img.shields.io/badge/i18n-multi--language-brightgreen?logo=googletranslate&logoColor=white)
+
+
+<!-- Multi-language Translation Status with Images -->
+
+**Translation Status:**
+
+<img src="https://flagcdn.com/24x18/us.png" alt="US" width="24"/> <img src="https://img.shields.io/badge/lang-en--100%25-brightgreen" alt="English" />
+<br>
+<img src="https://flagcdn.com/24x18/fr.png" alt="FR" width="24"/> <img src="https://img.shields.io/badge/lang-fr--70%25-yellow" alt="Français" />
+<br>
+<img src="https://flagcdn.com/24x18/de.png" alt="DE" width="24"/> <img src="https://img.shields.io/badge/lang-de--30%25-orange" alt="Deutsch" />
+<br>
+<img src="https://flagcdn.com/24x18/es.png" alt="ES" width="24"/> <img src="https://img.shields.io/badge/lang-es--planned-lightgrey" alt="Español" />
+<br>
+<img src="https://flagcdn.com/24x18/ru.png" alt="RU" width="24"/> <img src="https://img.shields.io/badge/lang-ru--planned-lightgrey" alt="Русский" />
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](../../pulls)
+[![Contributors](https://img.shields.io/github/contributors/bluewatermvc/bluewater-scripts?style=flat-square)](https://github.com/bluewatermvc/bluewater-scripts/graphs/contributors)
 
 ---
 
@@ -32,87 +62,103 @@
 
 ---
 
-# 🌊 Bluewater Documentation
-
-[![Docs Status](https://img.shields.io/badge/docs-up%20to%20date-brightgreen?logo=readthedocs&logoColor=white)](https://docs.bluewaterphp.org/)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?logo=github)](CONTRIBUTING.md)
-
-Welcome to the official **Bluewater Documentation** repository!
-
-This site provides **all documentation** for the Bluewater PHP framework and platform, including:
-
-- **Architecture Documentation**
-- **Technical/User Guides**
-- **API Reference (PHPDocs)**
-
-**Bluewater** is an open-source, high-performance, multi-tenant backend framework for building scalable SaaS APIs.  
-All documentation here is open and reusable under the [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/).
-
-> **Documentation Process:**  
-> Bluewater documentation is managed and synchronized across multiple repositories.  
-> For details on where each section originates and how it is kept up to date,  
-> please see our [SYNC_PROCESS.md](./SYNC_PROCESS.md).
+Welcome to the **official documentation repository** for the [Bluewater PHP Framework](https://github.com/BluewaterMVC/bluewater-framework).
+This repository is the **authoritative source** for all project, technical, and architectural documentation—including multi-language support, contributor onboarding, and automation guidelines.
 
 ---
 
-## 📚 Documentation Contents
+## 🚀 Quick Start
 
-### **1. Architecture Documentation**
-> **System design, diagrams, component interactions, and project rationale.**  
-Find these in [`architecture/`](./architecture/README.md).
+> **All contributors must read [CONTRIBUTING.md](./CONTRIBUTING.md) and [WORKFLOW.md](./WORKFLOW.md) before submitting code or documentation.**
 
-- [System Overview](./architecture/system-overview.md) ![Coming Soon](https://img.shields.io/badge/-COMING%20SOON-orange)
-- [Module Breakdown](./architecture/modules.md) ![Coming Soon](https://img.shields.io/badge/-COMING%20SOON-orange)
-- [Multi-Tenant Design](./architecture/multi-tenant.md) ![Coming Soon](https://img.shields.io/badge/-COMING%20SOON-orange)
-- [Security Principles](./architecture/security.md) ![Coming Soon](https://img.shields.io/badge/-COMING%20SOON-orange)
+1. **Clone the repository**
 
-### **2. Technical Documentation**
-> **Getting started, guides, usage patterns, extension points, and troubleshooting.**  
-Find these in [`technical/`](./technical/README.md).
+   ```bash
+   git clone https://github.com/BluewaterMVC/bluewater-docs.git
+   ```
 
-- [Getting Started](./technical/getting-started.md) ![Coming Soon](https://img.shields.io/badge/-COMING%20SOON-orange)
-- [Configuration Guide](./technical/configuration.md) ![Coming Soon](https://img.shields.io/badge/-COMING%20SOON-orange)
-- [Extension & Integration](./technical/extending.md) ![Coming Soon](https://img.shields.io/badge/-COMING%20SOON-orange)
-- [Deployment & Operations](./technical/deployment.md) ![Coming Soon](https://img.shields.io/badge/-COMING%20SOON-orange)
-- [FAQ & Troubleshooting](./technical/faq.md) ![Coming Soon](https://img.shields.io/badge/-COMING%20SOON-orange)
+2. **Initialize submodules**
 
-### **3. API Reference (PHPDocs)**
-> **Auto-generated documentation for all public classes, interfaces, and methods.**  
-Hosted in [`phpdoc/`](./phpdoc/README.md) or online at [docs.bluewaterphp.org/phpdoc/](https://docs.bluewaterphp.org/phpdoc/).
+   ```bash
+   git submodule update --init --recursive
+   ```
 
-- [API Docs Home](./phpdoc/index.html) ![Coming Soon](https://img.shields.io/badge/-COMING%20SOON-orange)
-- [Class Reference](./phpdoc/classes/index.html) ![Coming Soon](https://img.shields.io/badge/-COMING%20SOON-orange)
+3. **Install dependencies**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Set up Git hooks (required, one-time per clone)**
+
+   > To enable consistent pre-commit checks and automatic hook synchronization:
+   >
+   > ```bash
+   > python sync_git_hooks.py
+   > ```
+   >
+   > *Re-run this after updating the `.shared-scripts` submodule or after a fresh clone.*
+
+5. **Run the documentation site locally**
+
+   ```bash
+   cd docs
+   mkdocs serve
+   ```
+
+6. **See [Tools README](./tools/i18n/README.md) for i18n sync and automation usage.**
+
+---
+
+## 📚 Documentation Overview
+
+* **Architecture Documentation:**
+  High-level system design, diagrams, component overviews, and technical rationale.
+  See [`architecture/`](./architecture/README.md).
+  *\[Coming Soon: System Overview, Module Breakdown, Multi-Tenant, Security]*
+
+* **Technical Documentation:**
+  How-to guides, usage patterns, configuration, extension, and troubleshooting.
+  See [`technical/`](./technical/README.md).
+  *\[Coming Soon: Getting Started, Configuration, Extensions, Deployment, FAQ]*
+
+* **API Reference (PHPDocs):**
+  Auto-generated docs for all public classes, interfaces, and methods.
+  See [`phpdoc/`](./phpdoc/README.md) or visit [docs.bluewaterphp.org/phpdoc/](https://docs.bluewaterphp.org/phpdoc/).
+  *\[Coming Soon: API Home, Class Reference]*
+
+> **Documentation Process:**
+> Documentation is synchronized across multiple repositories via automated tools.
+> For details, see [SYNC\_PROCESS.md](./SYNC_PROCESS.md).
 
 ---
 
 ## 🧭 Navigation
 
-- **For Bluewater users and app developers:**  
-  Start with [Getting Started](./technical/getting-started.md) ![Coming Soon](https://img.shields.io/badge/-COMING%20SOON-orange) and [API Reference](./phpdoc/index.html) ![Coming Soon](https://img.shields.io/badge/-COMING%20SOON-orange).
-- **For core maintainers and architects:**  
-  See [Architecture Docs](./architecture/README.md).
-- **Looking for code?**  
-  See the [Bluewater Framework repository](https://github.com/BluewaterMVC/bluewater-framework).
+* [Getting Started](./technical/getting-started.md) ![Coming Soon](https://img.shields.io/badge/-COMING%20SOON-orange)
+* [API Reference](./phpdoc/index.html) ![Coming Soon](https://img.shields.io/badge/-COMING%20SOON-orange)
+* [Architecture Docs](./architecture/README.md)
+* [Bluewater Framework Repository](https://github.com/BluewaterMVC/bluewater-framework)
+* [Official Documentation Site](https://docs.bluewaterphp.org/)
+* [Issue Tracker](https://github.com/BluewaterMVC/bluewater-docs/issues)
 
 ---
 
 ## 🤝 Contributing
 
-We welcome contributions to improve and expand these docs!  
-Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines and our documentation standards.
+We welcome all contributions to improve and expand these docs!
+Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for contributor guidelines and standards.
 
-- All edits and suggestions are reviewed via Pull Requests.
-- If you find an issue or unclear section, [open an issue](https://github.com/BluewaterMVC/bluewater-docs/issues).
-- See our [Code of Conduct](./CODE_OF_CONDUCT.md).
+* Submit edits and suggestions via Pull Request.
+* If you find a bug or unclear section, [open an issue](https://github.com/BluewaterMVC/bluewater-docs/issues).
+* Review our [Code of Conduct](./CODE_OF_CONDUCT.md).
 
 ---
 
 ## 🛡️ Security
 
-If you discover a security vulnerability or sensitive issue,  
-please follow our [Security Policy](./SECURITY.md) for how to report it responsibly.
-
-We appreciate responsible disclosure to help keep Bluewater safe!
+If you discover a security vulnerability or sensitive issue,
+please follow our [Security Policy](./SECURITY.md) for responsible disclosure.
 
 ---
 
@@ -122,28 +168,16 @@ All content in this repository is licensed under the [Creative Commons Attributi
 
 ---
 
-## 📢 Project Links
-
-- [Bluewater Framework (Code & Tech Docs)](https://github.com/BluewaterMVC/bluewater-framework)
-- [API Reference (PHPDocs)](https://docs.bluewaterphp.org/phpdoc/)
-- [Official Documentation Site](https://docs.bluewaterphp.org/)
-- [Issue Tracker](https://github.com/BluewaterMVC/bluewater-docs/issues)
-
----
-
 ## 🛣️ Roadmap
 
-For the latest features, upcoming releases, and major plans for the Bluewater project,  
-please see the official [Bluewater Framework Roadmap](https://github.com/BluewaterMVC/bluewater-framework/blob/main/ROADMAP.md).
-
-Documentation updates are aligned with each framework release and major milestone.
-
----
-
-## 📝 License
-
-All content in this repository is licensed under the [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/).
+For feature plans, release schedule, and major project goals,
+see the [Bluewater Framework Roadmap](https://github.com/BluewaterMVC/bluewater-framework/blob/main/ROADMAP.md).
+Documentation updates are aligned with each major framework release.
 
 ---
 
 *Last updated: {{DATE}}*
+
+---
+
+If you would like further customization or want to add usage/FAQ, let me know!
